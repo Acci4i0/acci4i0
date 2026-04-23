@@ -1,0 +1,298 @@
+:root {
+  --yellow: #ffff02;
+  --bg: #e8e8e8;
+  --text: #111;
+  --text-muted: #888;
+  --card-gap: 32px;
+  --viewport-w: min(1100px, 78vw);
+  --viewport-h: min(720px, 78vh);
+  --card-radius: 6px;
+  --font-sans: 'Inter', -apple-system, system-ui, 'Segoe UI', Roboto, sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: var(--bg);
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--text);
+  background: var(--bg);
+  height: 100%;
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ---------- Minimap (top progress indicator) ---------- */
+.minimap {
+  position: fixed;
+  top: 28px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
+  pointer-events: none;
+}
+.minimap__ticks {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  height: 18px;
+}
+.minimap__ticks .tick {
+  display: inline-block;
+  width: 1px;
+  height: 12px;
+  background: var(--text);
+  transition: width 220ms ease, height 220ms ease, background 220ms ease;
+}
+.minimap__ticks .tick.active {
+  width: 22px;
+  height: 16px;
+  background: transparent;
+  border: 1px solid var(--text);
+  border-radius: 1px;
+}
+
+/* ---------- Viewport (fixed window that crops the frame row) ---------- */
+.viewport {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: var(--viewport-w);
+  height: var(--viewport-h);
+  overflow: hidden;
+  z-index: 1;
+  border-radius: var(--card-radius);
+}
+
+.frames-scaler {
+  width: 100%;
+  height: 100%;
+  transform-origin: 50% 50%;
+  will-change: transform;
+}
+
+.frames {
+  display: flex;
+  gap: var(--card-gap);
+  height: 100%;
+  width: max-content;
+  will-change: transform;
+}
+
+.crosshair {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 14px;
+  height: 14px;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 15;
+  color: var(--text);
+}
+.crosshair::before,
+.crosshair::after {
+  content: '';
+  position: absolute;
+  background: currentColor;
+  top: 50%;
+  left: 50%;
+}
+.crosshair::before {
+  width: 1px;
+  height: 14px;
+  transform: translate(-50%, -50%);
+}
+.crosshair::after {
+  height: 1px;
+  width: 14px;
+  transform: translate(-50%, -50%);
+}
+
+.card {
+  width: var(--viewport-w);
+  height: 100%;
+  flex-shrink: 0;
+  background: #fff;
+  border-radius: var(--card-radius);
+  padding: 56px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+}
+
+/* ---------- Bio card ---------- */
+.card--bio {
+  align-items: center;
+}
+.bio {
+  position: relative;
+  z-index: 2;
+  max-width: 75%;
+  font-size: clamp(28px, 3.6vw, 50px);
+  font-weight: 400;
+  line-height: 1.12;
+  letter-spacing: -0.025em;
+}
+.bio span {
+  display: block;
+}
+.bio .bio-indent {
+  padding-left: 0.6em;
+}
+.bio-ornament {
+  position: absolute;
+  top: 50%;
+  right: -5%;
+  transform: translateY(-50%);
+  width: 58%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: var(--yellow);
+  z-index: 1;
+}
+
+/* ---------- Manifesto card ---------- */
+.card--manifesto {
+  background: var(--yellow);
+  align-items: center;
+  justify-content: center;
+}
+.manifesto-placeholder {
+  font-size: clamp(22px, 2.2vw, 32px);
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.55);
+}
+
+/* ---------- Projects header card ---------- */
+.card--projects-header {
+  background: transparent;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.card--projects-header h2 {
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--text-muted);
+}
+
+/* ---------- Project cards ---------- */
+.card--project {
+  align-items: center;
+  justify-content: flex-start;
+  padding: 56px 0 56px 56px;
+  cursor: pointer;
+}
+.project-name {
+  font-size: clamp(120px, 18vw, 260px);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  white-space: nowrap;
+}
+
+/* ---------- Contact card ---------- */
+.card--contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 56px 56px 56px 72px;
+}
+.card--contact::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: var(--yellow);
+}
+.contact__top-left {
+  grid-column: 1;
+  grid-row: 1;
+  align-self: start;
+  justify-self: start;
+  font-size: 15px;
+}
+.contact__center {
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+  align-self: center;
+  justify-self: center;
+  font-size: clamp(48px, 6vw, 88px);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+.contact__bottom-left {
+  grid-column: 1;
+  grid-row: 2;
+  align-self: end;
+  justify-self: start;
+  font-size: 15px;
+  color: var(--text-muted);
+}
+.contact__bottom-right {
+  grid-column: 2;
+  grid-row: 2;
+  align-self: end;
+  justify-self: end;
+  font-size: 15px;
+}
+.card--contact a:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+/* ---------- Footer attribution ---------- */
+.attribution {
+  position: fixed;
+  bottom: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  z-index: 20;
+}
+.attribution small {
+  font-size: 11px;
+  color: var(--text-muted);
+}
+.attribution a {
+  color: var(--text-muted);
+}
+.attribution a:hover {
+  color: var(--text);
+}
+
+/* ---------- Mobile ---------- */
+@media (max-width: 640px) {
+  :root {
+    --viewport-w: 92vw;
+    --viewport-h: 72vh;
+    --card-gap: 16px;
+  }
+  .card { padding: 24px; }
+  .card--project { padding: 24px 0 24px 24px; }
+  .card--contact { padding: 24px 24px 24px 36px; }
+  .minimap { top: 20px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .minimap__ticks .tick { transition: none; }
+}

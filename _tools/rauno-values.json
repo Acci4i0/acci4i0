@@ -1,0 +1,2262 @@
+{
+  "desktop": {
+    "url": "https://rauno.me/",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "scrollers": [],
+    "mainScroller": null,
+    "cardCandidates": [],
+    "cardCount": 0,
+    "body": {
+      "tag": "body",
+      "id": null,
+      "classes": null,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 5264
+      },
+      "styles": {
+        "display": "block",
+        "position": "static",
+        "overflow": "visible",
+        "overflow-x": "visible",
+        "overflow-y": "visible",
+        "scroll-snap-type": "none",
+        "scroll-snap-align": "none",
+        "width": "1280px",
+        "height": "5264px",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "background-color": "rgb(237, 237, 237)",
+        "color": "rgb(0, 0, 0)",
+        "border-radius": "0px",
+        "box-shadow": "none",
+        "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "normal",
+        "text-indent": "0px",
+        "flex-direction": "row",
+        "grid-auto-flow": "row",
+        "transition": "all",
+        "transform": "none",
+        "mix-blend-mode": "normal",
+        "opacity": "1"
+      }
+    },
+    "html": {
+      "tag": "html",
+      "id": null,
+      "classes": "light",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 5264
+      },
+      "styles": {
+        "display": "block",
+        "position": "static",
+        "overflow": "visible",
+        "overflow-x": "visible",
+        "overflow-y": "visible",
+        "scroll-snap-type": "none",
+        "scroll-snap-align": "none",
+        "width": "1280px",
+        "height": "5264px",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "background-color": "rgb(237, 237, 237)",
+        "color": "rgb(0, 0, 0)",
+        "border-radius": "0px",
+        "box-shadow": "none",
+        "font-family": "Times",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "normal",
+        "text-indent": "0px",
+        "flex-direction": "row",
+        "grid-auto-flow": "row",
+        "transition": "all",
+        "transform": "none",
+        "mix-blend-mode": "normal",
+        "opacity": "1"
+      }
+    },
+    "fontFaces": [
+      {
+        "cssText": "@font-face { font-family: X; font-weight: 400; font-display: swap; src: url(\"/dd.woff2\") format(\"woff2\"); }",
+        "family": "X",
+        "src": "url(\"/dd.woff2\") format(\"woff2\")",
+        "weight": "400",
+        "style": ""
+      },
+      {
+        "cssText": "@font-face { font-family: X; font-weight: 500; font-display: swap; src: url(\"/dd.woff2\") format(\"woff2\"); }",
+        "family": "X",
+        "src": "url(\"/dd.woff2\") format(\"woff2\")",
+        "weight": "500",
+        "style": ""
+      },
+      {
+        "cssText": "@font-face { font-family: \"JetBrains Mono\"; font-weight: 400; font-display: swap; src: url(\"/JetBrainsMono-Regular.woff2\") format(\"woff2\"); }",
+        "family": "\"JetBrains Mono\"",
+        "src": "url(\"/JetBrainsMono-Regular.woff2\") format(\"woff2\")",
+        "weight": "400",
+        "style": ""
+      }
+    ],
+    "keyframes": [
+      {
+        "name": "fade",
+        "cssText": "@keyframes fade { \n  100% { opacity: 1; }\n}"
+      },
+      {
+        "name": "animate",
+        "cssText": "@keyframes animate { \n  100% { offset-distance: 100%; }\n}"
+      },
+      {
+        "name": "index_fadeFrames__RAnv2",
+        "cssText": "@keyframes index_fadeFrames__RAnv2 { \n  100% { opacity: 1; }\n}"
+      }
+    ],
+    "displayTexts": [
+      {
+        "text": "Rauno Freiberg",
+        "styles": {
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "85px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "color": "rgb(23, 23, 23)",
+          "text-indent": "0px"
+        },
+        "rect": {
+          "x": 220,
+          "y": 160,
+          "width": 446,
+          "height": 80
+        }
+      },
+      {
+        "text": "is an Estonian",
+        "styles": {
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "85px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "color": "rgb(23, 23, 23)",
+          "text-indent": "0px"
+        },
+        "rect": {
+          "x": 270,
+          "y": 240,
+          "width": 398,
+          "height": 80
+        }
+      },
+      {
+        "text": "interaction",
+        "styles": {
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "85px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "color": "rgb(23, 23, 23)",
+          "text-indent": "0px"
+        },
+        "rect": {
+          "x": 220,
+          "y": 320,
+          "width": 307,
+          "height": 80
+        }
+      },
+      {
+        "text": "designer",
+        "styles": {
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "85px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "color": "rgb(23, 23, 23)",
+          "text-indent": "0px"
+        },
+        "rect": {
+          "x": 270,
+          "y": 400,
+          "width": 255,
+          "height": 80
+        }
+      },
+      {
+        "text": "working with Vercel",
+        "styles": {
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "85px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "color": "rgb(23, 23, 23)",
+          "text-indent": "0px"
+        },
+        "rect": {
+          "x": 220,
+          "y": 480,
+          "width": 560,
+          "height": 80
+        }
+      },
+      {
+        "text": "and Devouring Details",
+        "styles": {
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "85px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "color": "rgb(23, 23, 23)",
+          "text-indent": "0px"
+        },
+        "rect": {
+          "x": 270,
+          "y": 560,
+          "width": 635,
+          "height": 80
+        }
+      },
+      {
+        "text": "DD",
+        "styles": {
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "720px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "color": "rgb(0, 0, 0)",
+          "text-indent": "0px"
+        },
+        "rect": {
+          "x": 1142,
+          "y": 61,
+          "width": 789,
+          "height": 678
+        }
+      },
+      {
+        "text": "Craft",
+        "styles": {
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "720px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "color": "rgb(0, 0, 0)",
+          "text-indent": "0px"
+        },
+        "rect": {
+          "x": 2115,
+          "y": 61,
+          "width": 1219,
+          "height": 678
+        }
+      },
+      {
+        "text": "Projects",
+        "styles": {
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "720px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "color": "rgb(0, 0, 0)",
+          "text-indent": "0px"
+        },
+        "rect": {
+          "x": 4060,
+          "y": 61,
+          "width": 2030,
+          "height": 678
+        }
+      },
+      {
+        "text": "Twitter",
+        "styles": {
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "85px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "color": "rgb(23, 23, 23)",
+          "text-indent": "0px"
+        },
+        "rect": {
+          "x": 6044,
+          "y": 157,
+          "width": 199,
+          "height": 80
+        }
+      },
+      {
+        "text": "2023",
+        "styles": {
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "85px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "color": "rgb(23, 23, 23)",
+          "text-indent": "0px"
+        },
+        "rect": {
+          "x": 6748,
+          "y": 157,
+          "width": 158,
+          "height": 80
+        }
+      },
+      {
+        "text": "2022",
+        "styles": {
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "85px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "color": "rgb(23, 23, 23)",
+          "text-indent": "0px"
+        },
+        "rect": {
+          "x": 6044,
+          "y": 563,
+          "width": 156,
+          "height": 80
+        }
+      },
+      {
+        "text": "GitHub",
+        "styles": {
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "85px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "color": "rgb(23, 23, 23)",
+          "text-indent": "0px"
+        },
+        "rect": {
+          "x": 6702,
+          "y": 563,
+          "width": 204,
+          "height": 80
+        }
+      },
+      {
+        "text": "Email",
+        "styles": {
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "85px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "color": "rgb(23, 23, 23)",
+          "text-indent": "0px"
+        },
+        "rect": {
+          "x": 6396,
+          "y": 360,
+          "width": 158,
+          "height": 80
+        }
+      },
+      {
+        "text": "Copied",
+        "styles": {
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "85px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "color": "rgb(23, 23, 23)",
+          "text-indent": "0px"
+        },
+        "rect": {
+          "x": 6370,
+          "y": 431,
+          "width": 211,
+          "height": 80
+        }
+      }
+    ],
+    "yellowish": [
+      {
+        "tag": "div",
+        "id": null,
+        "classes": "c-lesPJm c-lesPJm-ifOgKdU-css index_circle___AjIu",
+        "rect": {
+          "x": 546,
+          "y": 118,
+          "width": 565,
+          "height": 565
+        },
+        "styles": {
+          "display": "flex",
+          "position": "absolute",
+          "overflow": "visible",
+          "overflow-x": "visible",
+          "overflow-y": "visible",
+          "scroll-snap-type": "none",
+          "scroll-snap-align": "none",
+          "width": "720px",
+          "height": "720px",
+          "padding": "0px",
+          "margin": "0px",
+          "gap": "normal",
+          "background-color": "rgb(255, 255, 2)",
+          "color": "rgb(23, 23, 23)",
+          "border-radius": "9999px",
+          "box-shadow": "none",
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "text-indent": "0px",
+          "flex-direction": "row",
+          "grid-auto-flow": "row",
+          "transition": "all",
+          "transform": "none",
+          "mix-blend-mode": "normal",
+          "opacity": "1"
+        }
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "classes": "c-lesPJm c-lesPJm-ieVjYMY-css",
+        "rect": {
+          "x": 5032,
+          "y": 118,
+          "width": 941,
+          "height": 565
+        },
+        "styles": {
+          "display": "block",
+          "position": "static",
+          "overflow": "clip visible",
+          "overflow-x": "clip",
+          "overflow-y": "visible",
+          "scroll-snap-type": "none",
+          "scroll-snap-align": "none",
+          "width": "1200px",
+          "height": "720px",
+          "padding": "0px",
+          "margin": "0px",
+          "gap": "normal",
+          "background-color": "rgb(255, 255, 2)",
+          "color": "rgb(0, 0, 0)",
+          "border-radius": "0px",
+          "box-shadow": "none",
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "text-indent": "0px",
+          "flex-direction": "row",
+          "grid-auto-flow": "row",
+          "transition": "all",
+          "transform": "none",
+          "mix-blend-mode": "normal",
+          "opacity": "1"
+        }
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "classes": "index_contents__YVkKY",
+        "rect": {
+          "x": 5032,
+          "y": 118,
+          "width": 941,
+          "height": 565
+        },
+        "styles": {
+          "display": "flex",
+          "position": "static",
+          "overflow": "visible",
+          "overflow-x": "visible",
+          "overflow-y": "visible",
+          "scroll-snap-type": "none",
+          "scroll-snap-align": "none",
+          "width": "1200px",
+          "height": "720px",
+          "padding": "50px",
+          "margin": "0px",
+          "gap": "normal",
+          "background-color": "rgb(255, 255, 2)",
+          "color": "rgb(0, 0, 0)",
+          "border-radius": "0px",
+          "box-shadow": "none",
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "text-indent": "0px",
+          "flex-direction": "row",
+          "grid-auto-flow": "row",
+          "transition": "all",
+          "transform": "none",
+          "mix-blend-mode": "normal",
+          "opacity": "1"
+        }
+      }
+    ],
+    "circles": [
+      {
+        "tag": "div",
+        "id": null,
+        "classes": "c-lesPJm c-lesPJm-ifOgKdU-css index_circle___AjIu",
+        "rect": {
+          "x": 546,
+          "y": 118,
+          "width": 565,
+          "height": 565
+        },
+        "styles": {
+          "display": "flex",
+          "position": "absolute",
+          "overflow": "visible",
+          "overflow-x": "visible",
+          "overflow-y": "visible",
+          "scroll-snap-type": "none",
+          "scroll-snap-align": "none",
+          "width": "720px",
+          "height": "720px",
+          "padding": "0px",
+          "margin": "0px",
+          "gap": "normal",
+          "background-color": "rgb(255, 255, 2)",
+          "color": "rgb(23, 23, 23)",
+          "border-radius": "9999px",
+          "box-shadow": "none",
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "text-indent": "0px",
+          "flex-direction": "row",
+          "grid-auto-flow": "row",
+          "transition": "all",
+          "transform": "none",
+          "mix-blend-mode": "normal",
+          "opacity": "1",
+          "filter": "none"
+        }
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "classes": "c-lesPJm c-lesPJm-ikAXRTc-css index_circle___AjIu",
+        "rect": {
+          "x": 1931,
+          "y": 118,
+          "width": 565,
+          "height": 565
+        },
+        "styles": {
+          "display": "block",
+          "position": "static",
+          "overflow": "visible",
+          "overflow-x": "visible",
+          "overflow-y": "visible",
+          "scroll-snap-type": "none",
+          "scroll-snap-align": "none",
+          "width": "720px",
+          "height": "720px",
+          "padding": "0px",
+          "margin": "0px",
+          "gap": "normal",
+          "background-color": "color(display-p3 0.99 0.4 0.02)",
+          "color": "rgb(0, 0, 0)",
+          "border-radius": "9999px",
+          "box-shadow": "none",
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "text-indent": "0px",
+          "flex-direction": "row",
+          "grid-auto-flow": "row",
+          "transition": "all",
+          "transform": "none",
+          "mix-blend-mode": "normal",
+          "opacity": "1",
+          "filter": "none"
+        }
+      }
+    ],
+    "topBarCandidates": [
+      {
+        "tag": "div",
+        "id": null,
+        "classes": "index_center__dvDjE scrollable-content",
+        "rect": {
+          "x": 40,
+          "y": 40,
+          "width": 1200,
+          "height": 720
+        },
+        "styles": {
+          "display": "block",
+          "position": "fixed",
+          "overflow": "visible",
+          "overflow-x": "visible",
+          "overflow-y": "visible",
+          "scroll-snap-type": "none",
+          "scroll-snap-align": "none",
+          "width": "1200px",
+          "height": "720px",
+          "padding": "0px",
+          "margin": "0px",
+          "gap": "normal",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "border-radius": "0px",
+          "box-shadow": "none",
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "text-indent": "0px",
+          "flex-direction": "row",
+          "grid-auto-flow": "row",
+          "transition": "all",
+          "transform": "matrix(1, 0, 0, 1, -600, -360)",
+          "mix-blend-mode": "normal",
+          "opacity": "1"
+        },
+        "childCount": 1,
+        "childSample": [
+          {
+            "tag": "div",
+            "id": null,
+            "classes": "index_frames__d9hw4",
+            "rect": {
+              "x": 169,
+              "y": 118,
+              "width": 941,
+              "height": 565
+            },
+            "styles": {
+              "display": "flex",
+              "position": "static",
+              "overflow": "visible",
+              "overflow-x": "visible",
+              "overflow-y": "visible",
+              "scroll-snap-type": "none",
+              "scroll-snap-align": "none",
+              "width": "1200px",
+              "height": "720px",
+              "padding": "0px",
+              "margin": "0px",
+              "gap": "8px",
+              "background-color": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "border-radius": "0px",
+              "box-shadow": "none",
+              "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "font-size": "16px",
+              "font-weight": "400",
+              "line-height": "normal",
+              "text-indent": "0px",
+              "flex-direction": "row",
+              "grid-auto-flow": "row",
+              "transition": "all",
+              "transform": "matrix(0.784314, 0, 0, 0.784314, 0, 0)",
+              "mix-blend-mode": "normal",
+              "opacity": "1"
+            }
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "classes": "minimap_minimap___nmXF",
+        "rect": {
+          "x": 545,
+          "y": 64,
+          "width": 191,
+          "height": 18
+        },
+        "styles": {
+          "display": "block",
+          "position": "fixed",
+          "overflow": "visible",
+          "overflow-x": "visible",
+          "overflow-y": "visible",
+          "scroll-snap-type": "none",
+          "scroll-snap-align": "none",
+          "width": "191px",
+          "height": "18px",
+          "padding": "0px",
+          "margin": "0px",
+          "gap": "normal",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "border-radius": "0px",
+          "box-shadow": "none",
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "text-indent": "0px",
+          "flex-direction": "row",
+          "grid-auto-flow": "row",
+          "transition": "all",
+          "transform": "matrix(1, 0, 0, 1, -95.5, 0)",
+          "mix-blend-mode": "normal",
+          "opacity": "1"
+        },
+        "childCount": 1,
+        "childSample": [
+          {
+            "tag": "div",
+            "id": null,
+            "classes": "c-lesPJm c-lesPJm-icvxujr-css",
+            "rect": {
+              "x": 545,
+              "y": 64,
+              "width": 191,
+              "height": 18
+            },
+            "styles": {
+              "display": "flex",
+              "position": "static",
+              "overflow": "visible",
+              "overflow-x": "visible",
+              "overflow-y": "visible",
+              "scroll-snap-type": "none",
+              "scroll-snap-align": "none",
+              "width": "191px",
+              "height": "18px",
+              "padding": "0px",
+              "margin": "0px",
+              "gap": "9px",
+              "background-color": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "border-radius": "0px",
+              "box-shadow": "none",
+              "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "font-size": "16px",
+              "font-weight": "400",
+              "line-height": "normal",
+              "text-indent": "0px",
+              "flex-direction": "row",
+              "grid-auto-flow": "row",
+              "transition": "all",
+              "transform": "none",
+              "mix-blend-mode": "normal",
+              "opacity": "1"
+            }
+          }
+        ]
+      }
+    ],
+    "watched": {
+      "yellow_0": {
+        "tag": "div",
+        "id": null,
+        "classes": "c-lesPJm c-lesPJm-ifOgKdU-css index_circle___AjIu",
+        "rect": {
+          "x": 546,
+          "y": 118,
+          "width": 565,
+          "height": 565
+        },
+        "styles": {
+          "display": "flex",
+          "position": "absolute",
+          "overflow": "visible",
+          "overflow-x": "visible",
+          "overflow-y": "visible",
+          "scroll-snap-type": "none",
+          "scroll-snap-align": "none",
+          "width": "720px",
+          "height": "720px",
+          "padding": "0px",
+          "margin": "0px",
+          "gap": "normal",
+          "background-color": "rgb(255, 255, 2)",
+          "color": "rgb(23, 23, 23)",
+          "border-radius": "9999px",
+          "box-shadow": "none",
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "text-indent": "0px",
+          "flex-direction": "row",
+          "grid-auto-flow": "row",
+          "transition": "all",
+          "transform": "none",
+          "mix-blend-mode": "normal",
+          "opacity": "1"
+        }
+      },
+      "yellow_1": {
+        "tag": "div",
+        "id": null,
+        "classes": "c-lesPJm c-lesPJm-ieVjYMY-css",
+        "rect": {
+          "x": 5032,
+          "y": 118,
+          "width": 941,
+          "height": 565
+        },
+        "styles": {
+          "display": "block",
+          "position": "static",
+          "overflow": "clip visible",
+          "overflow-x": "clip",
+          "overflow-y": "visible",
+          "scroll-snap-type": "none",
+          "scroll-snap-align": "none",
+          "width": "1200px",
+          "height": "720px",
+          "padding": "0px",
+          "margin": "0px",
+          "gap": "normal",
+          "background-color": "rgb(255, 255, 2)",
+          "color": "rgb(0, 0, 0)",
+          "border-radius": "0px",
+          "box-shadow": "none",
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "text-indent": "0px",
+          "flex-direction": "row",
+          "grid-auto-flow": "row",
+          "transition": "all",
+          "transform": "none",
+          "mix-blend-mode": "normal",
+          "opacity": "1"
+        }
+      },
+      "yellow_2": {
+        "tag": "div",
+        "id": null,
+        "classes": "index_contents__YVkKY",
+        "rect": {
+          "x": 5032,
+          "y": 118,
+          "width": 941,
+          "height": 565
+        },
+        "styles": {
+          "display": "flex",
+          "position": "static",
+          "overflow": "visible",
+          "overflow-x": "visible",
+          "overflow-y": "visible",
+          "scroll-snap-type": "none",
+          "scroll-snap-align": "none",
+          "width": "1200px",
+          "height": "720px",
+          "padding": "50px",
+          "margin": "0px",
+          "gap": "normal",
+          "background-color": "rgb(255, 255, 2)",
+          "color": "rgb(0, 0, 0)",
+          "border-radius": "0px",
+          "box-shadow": "none",
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "text-indent": "0px",
+          "flex-direction": "row",
+          "grid-auto-flow": "row",
+          "transition": "all",
+          "transform": "none",
+          "mix-blend-mode": "normal",
+          "opacity": "1"
+        }
+      },
+      "circle_0": {
+        "tag": "div",
+        "id": null,
+        "classes": "c-lesPJm c-lesPJm-ifOgKdU-css index_circle___AjIu",
+        "rect": {
+          "x": 546,
+          "y": 118,
+          "width": 565,
+          "height": 565
+        },
+        "styles": {
+          "display": "flex",
+          "position": "absolute",
+          "overflow": "visible",
+          "overflow-x": "visible",
+          "overflow-y": "visible",
+          "scroll-snap-type": "none",
+          "scroll-snap-align": "none",
+          "width": "720px",
+          "height": "720px",
+          "padding": "0px",
+          "margin": "0px",
+          "gap": "normal",
+          "background-color": "rgb(255, 255, 2)",
+          "color": "rgb(23, 23, 23)",
+          "border-radius": "9999px",
+          "box-shadow": "none",
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "text-indent": "0px",
+          "flex-direction": "row",
+          "grid-auto-flow": "row",
+          "transition": "all",
+          "transform": "none",
+          "mix-blend-mode": "normal",
+          "opacity": "1",
+          "filter": "none"
+        }
+      },
+      "circle_1": {
+        "tag": "div",
+        "id": null,
+        "classes": "c-lesPJm c-lesPJm-ikAXRTc-css index_circle___AjIu",
+        "rect": {
+          "x": 1931,
+          "y": 118,
+          "width": 565,
+          "height": 565
+        },
+        "styles": {
+          "display": "block",
+          "position": "static",
+          "overflow": "visible",
+          "overflow-x": "visible",
+          "overflow-y": "visible",
+          "scroll-snap-type": "none",
+          "scroll-snap-align": "none",
+          "width": "720px",
+          "height": "720px",
+          "padding": "0px",
+          "margin": "0px",
+          "gap": "normal",
+          "background-color": "color(display-p3 0.99 0.4 0.02)",
+          "color": "rgb(0, 0, 0)",
+          "border-radius": "9999px",
+          "box-shadow": "none",
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "text-indent": "0px",
+          "flex-direction": "row",
+          "grid-auto-flow": "row",
+          "transition": "all",
+          "transform": "none",
+          "mix-blend-mode": "normal",
+          "opacity": "1",
+          "filter": "none"
+        }
+      },
+      "topbar_0": {
+        "tag": "div",
+        "id": null,
+        "classes": "index_center__dvDjE scrollable-content",
+        "rect": {
+          "x": 40,
+          "y": 40,
+          "width": 1200,
+          "height": 720
+        },
+        "styles": {
+          "display": "block",
+          "position": "fixed",
+          "overflow": "visible",
+          "overflow-x": "visible",
+          "overflow-y": "visible",
+          "scroll-snap-type": "none",
+          "scroll-snap-align": "none",
+          "width": "1200px",
+          "height": "720px",
+          "padding": "0px",
+          "margin": "0px",
+          "gap": "normal",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "border-radius": "0px",
+          "box-shadow": "none",
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "text-indent": "0px",
+          "flex-direction": "row",
+          "grid-auto-flow": "row",
+          "transition": "all",
+          "transform": "matrix(1, 0, 0, 1, -600, -360)",
+          "mix-blend-mode": "normal",
+          "opacity": "1"
+        },
+        "childCount": 1,
+        "childSample": [
+          {
+            "tag": "div",
+            "id": null,
+            "classes": "index_frames__d9hw4",
+            "rect": {
+              "x": 169,
+              "y": 118,
+              "width": 941,
+              "height": 565
+            },
+            "styles": {
+              "display": "flex",
+              "position": "static",
+              "overflow": "visible",
+              "overflow-x": "visible",
+              "overflow-y": "visible",
+              "scroll-snap-type": "none",
+              "scroll-snap-align": "none",
+              "width": "1200px",
+              "height": "720px",
+              "padding": "0px",
+              "margin": "0px",
+              "gap": "8px",
+              "background-color": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "border-radius": "0px",
+              "box-shadow": "none",
+              "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "font-size": "16px",
+              "font-weight": "400",
+              "line-height": "normal",
+              "text-indent": "0px",
+              "flex-direction": "row",
+              "grid-auto-flow": "row",
+              "transition": "all",
+              "transform": "matrix(0.784314, 0, 0, 0.784314, 0, 0)",
+              "mix-blend-mode": "normal",
+              "opacity": "1"
+            }
+          }
+        ]
+      },
+      "topbar_1": {
+        "tag": "div",
+        "id": null,
+        "classes": "minimap_minimap___nmXF",
+        "rect": {
+          "x": 545,
+          "y": 64,
+          "width": 191,
+          "height": 18
+        },
+        "styles": {
+          "display": "block",
+          "position": "fixed",
+          "overflow": "visible",
+          "overflow-x": "visible",
+          "overflow-y": "visible",
+          "scroll-snap-type": "none",
+          "scroll-snap-align": "none",
+          "width": "191px",
+          "height": "18px",
+          "padding": "0px",
+          "margin": "0px",
+          "gap": "normal",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "border-radius": "0px",
+          "box-shadow": "none",
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "text-indent": "0px",
+          "flex-direction": "row",
+          "grid-auto-flow": "row",
+          "transition": "all",
+          "transform": "matrix(1, 0, 0, 1, -95.5, 0)",
+          "mix-blend-mode": "normal",
+          "opacity": "1"
+        },
+        "childCount": 1,
+        "childSample": [
+          {
+            "tag": "div",
+            "id": null,
+            "classes": "c-lesPJm c-lesPJm-icvxujr-css",
+            "rect": {
+              "x": 545,
+              "y": 64,
+              "width": 191,
+              "height": 18
+            },
+            "styles": {
+              "display": "flex",
+              "position": "static",
+              "overflow": "visible",
+              "overflow-x": "visible",
+              "overflow-y": "visible",
+              "scroll-snap-type": "none",
+              "scroll-snap-align": "none",
+              "width": "191px",
+              "height": "18px",
+              "padding": "0px",
+              "margin": "0px",
+              "gap": "9px",
+              "background-color": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "border-radius": "0px",
+              "box-shadow": "none",
+              "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "font-size": "16px",
+              "font-weight": "400",
+              "line-height": "normal",
+              "text-indent": "0px",
+              "flex-direction": "row",
+              "grid-auto-flow": "row",
+              "transition": "all",
+              "transform": "none",
+              "mix-blend-mode": "normal",
+              "opacity": "1"
+            }
+          }
+        ]
+      }
+    },
+    "autonomousMotion": []
+  },
+  "mobile": {
+    "url": "https://rauno.me/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "scrollers": [],
+    "mainScroller": null,
+    "cardCandidates": [],
+    "cardCount": 0,
+    "body": {
+      "tag": "body",
+      "id": null,
+      "classes": null,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 3076
+      },
+      "styles": {
+        "display": "block",
+        "position": "static",
+        "overflow": "visible",
+        "overflow-x": "visible",
+        "overflow-y": "visible",
+        "scroll-snap-type": "none",
+        "scroll-snap-align": "none",
+        "width": "390px",
+        "height": "3076px",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "background-color": "rgb(237, 237, 237)",
+        "color": "rgb(0, 0, 0)",
+        "border-radius": "0px",
+        "box-shadow": "none",
+        "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "normal",
+        "text-indent": "0px",
+        "flex-direction": "row",
+        "grid-auto-flow": "row",
+        "transition": "all",
+        "transform": "none",
+        "mix-blend-mode": "normal",
+        "opacity": "1"
+      }
+    },
+    "html": {
+      "tag": "html",
+      "id": null,
+      "classes": "light",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 3076
+      },
+      "styles": {
+        "display": "block",
+        "position": "static",
+        "overflow": "visible",
+        "overflow-x": "visible",
+        "overflow-y": "visible",
+        "scroll-snap-type": "none",
+        "scroll-snap-align": "none",
+        "width": "390px",
+        "height": "3076px",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "background-color": "rgb(237, 237, 237)",
+        "color": "rgb(0, 0, 0)",
+        "border-radius": "0px",
+        "box-shadow": "none",
+        "font-family": "Times",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "normal",
+        "text-indent": "0px",
+        "flex-direction": "row",
+        "grid-auto-flow": "row",
+        "transition": "all",
+        "transform": "none",
+        "mix-blend-mode": "normal",
+        "opacity": "1"
+      }
+    },
+    "fontFaces": [
+      {
+        "cssText": "@font-face { font-family: X; font-weight: 400; font-display: swap; src: url(\"/dd.woff2\") format(\"woff2\"); }",
+        "family": "X",
+        "src": "url(\"/dd.woff2\") format(\"woff2\")",
+        "weight": "400",
+        "style": ""
+      },
+      {
+        "cssText": "@font-face { font-family: X; font-weight: 500; font-display: swap; src: url(\"/dd.woff2\") format(\"woff2\"); }",
+        "family": "X",
+        "src": "url(\"/dd.woff2\") format(\"woff2\")",
+        "weight": "500",
+        "style": ""
+      },
+      {
+        "cssText": "@font-face { font-family: \"JetBrains Mono\"; font-weight: 400; font-display: swap; src: url(\"/JetBrainsMono-Regular.woff2\") format(\"woff2\"); }",
+        "family": "\"JetBrains Mono\"",
+        "src": "url(\"/JetBrainsMono-Regular.woff2\") format(\"woff2\")",
+        "weight": "400",
+        "style": ""
+      }
+    ],
+    "keyframes": [
+      {
+        "name": "fade",
+        "cssText": "@keyframes fade { \n  100% { opacity: 1; }\n}"
+      },
+      {
+        "name": "animate",
+        "cssText": "@keyframes animate { \n  100% { offset-distance: 100%; }\n}"
+      },
+      {
+        "name": "index_fadeFrames__RAnv2",
+        "cssText": "@keyframes index_fadeFrames__RAnv2 { \n  100% { opacity: 1; }\n}"
+      }
+    ],
+    "displayTexts": [
+      {
+        "text": "Rauno Freiberg",
+        "styles": {
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "85px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "color": "rgb(23, 23, 23)",
+          "text-indent": "0px"
+        },
+        "rect": {
+          "x": 34,
+          "y": 330,
+          "width": 170,
+          "height": 31
+        }
+      },
+      {
+        "text": "is an Estonian",
+        "styles": {
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "85px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "color": "rgb(23, 23, 23)",
+          "text-indent": "0px"
+        },
+        "rect": {
+          "x": 53,
+          "y": 361,
+          "width": 152,
+          "height": 31
+        }
+      },
+      {
+        "text": "interaction",
+        "styles": {
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "85px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "color": "rgb(23, 23, 23)",
+          "text-indent": "0px"
+        },
+        "rect": {
+          "x": 34,
+          "y": 391,
+          "width": 118,
+          "height": 31
+        }
+      },
+      {
+        "text": "designer",
+        "styles": {
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "85px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "color": "rgb(23, 23, 23)",
+          "text-indent": "0px"
+        },
+        "rect": {
+          "x": 53,
+          "y": 422,
+          "width": 98,
+          "height": 31
+        }
+      },
+      {
+        "text": "working with Vercel",
+        "styles": {
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "85px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "color": "rgb(23, 23, 23)",
+          "text-indent": "0px"
+        },
+        "rect": {
+          "x": 34,
+          "y": 453,
+          "width": 214,
+          "height": 31
+        }
+      },
+      {
+        "text": "and Devouring Details",
+        "styles": {
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "85px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "color": "rgb(23, 23, 23)",
+          "text-indent": "0px"
+        },
+        "rect": {
+          "x": 53,
+          "y": 483,
+          "width": 243,
+          "height": 31
+        }
+      },
+      {
+        "text": "DD",
+        "styles": {
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "720px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "color": "rgb(0, 0, 0)",
+          "text-indent": "0px"
+        },
+        "rect": {
+          "x": 387,
+          "y": 292,
+          "width": 302,
+          "height": 259
+        }
+      },
+      {
+        "text": "Craft",
+        "styles": {
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "720px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "color": "rgb(0, 0, 0)",
+          "text-indent": "0px"
+        },
+        "rect": {
+          "x": 759,
+          "y": 292,
+          "width": 466,
+          "height": 259
+        }
+      },
+      {
+        "text": "Projects",
+        "styles": {
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "720px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "color": "rgb(0, 0, 0)",
+          "text-indent": "0px"
+        },
+        "rect": {
+          "x": 1503,
+          "y": 292,
+          "width": 777,
+          "height": 259
+        }
+      },
+      {
+        "text": "Twitter",
+        "styles": {
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "85px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "color": "rgb(23, 23, 23)",
+          "text-indent": "0px"
+        },
+        "rect": {
+          "x": 2262,
+          "y": 329,
+          "width": 76,
+          "height": 31
+        }
+      },
+      {
+        "text": "2023",
+        "styles": {
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "85px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "color": "rgb(23, 23, 23)",
+          "text-indent": "0px"
+        },
+        "rect": {
+          "x": 2531,
+          "y": 329,
+          "width": 61,
+          "height": 31
+        }
+      },
+      {
+        "text": "2022",
+        "styles": {
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "85px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "color": "rgb(23, 23, 23)",
+          "text-indent": "0px"
+        },
+        "rect": {
+          "x": 2262,
+          "y": 484,
+          "width": 60,
+          "height": 31
+        }
+      },
+      {
+        "text": "GitHub",
+        "styles": {
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "85px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "color": "rgb(23, 23, 23)",
+          "text-indent": "0px"
+        },
+        "rect": {
+          "x": 2514,
+          "y": 484,
+          "width": 78,
+          "height": 31
+        }
+      },
+      {
+        "text": "Email",
+        "styles": {
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "85px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "color": "rgb(23, 23, 23)",
+          "text-indent": "0px"
+        },
+        "rect": {
+          "x": 2397,
+          "y": 407,
+          "width": 61,
+          "height": 31
+        }
+      },
+      {
+        "text": "Copied",
+        "styles": {
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "85px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "color": "rgb(23, 23, 23)",
+          "text-indent": "0px"
+        },
+        "rect": {
+          "x": 2387,
+          "y": 434,
+          "width": 81,
+          "height": 31
+        }
+      }
+    ],
+    "yellowish": [
+      {
+        "tag": "div",
+        "id": null,
+        "classes": "c-lesPJm c-lesPJm-ifOgKdU-css index_circle___AjIu",
+        "rect": {
+          "x": 159,
+          "y": 314,
+          "width": 216,
+          "height": 216
+        },
+        "styles": {
+          "display": "flex",
+          "position": "absolute",
+          "overflow": "visible",
+          "overflow-x": "visible",
+          "overflow-y": "visible",
+          "scroll-snap-type": "none",
+          "scroll-snap-align": "none",
+          "width": "720px",
+          "height": "720px",
+          "padding": "0px",
+          "margin": "0px",
+          "gap": "normal",
+          "background-color": "rgb(255, 255, 2)",
+          "color": "rgb(23, 23, 23)",
+          "border-radius": "9999px",
+          "box-shadow": "none",
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "text-indent": "0px",
+          "flex-direction": "row",
+          "grid-auto-flow": "row",
+          "transition": "all",
+          "transform": "none",
+          "mix-blend-mode": "normal",
+          "opacity": "1"
+        }
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "classes": "c-lesPJm c-lesPJm-ieVjYMY-css",
+        "rect": {
+          "x": 1875,
+          "y": 314,
+          "width": 360,
+          "height": 216
+        },
+        "styles": {
+          "display": "block",
+          "position": "static",
+          "overflow": "clip visible",
+          "overflow-x": "clip",
+          "overflow-y": "visible",
+          "scroll-snap-type": "none",
+          "scroll-snap-align": "none",
+          "width": "1200px",
+          "height": "720px",
+          "padding": "0px",
+          "margin": "0px",
+          "gap": "normal",
+          "background-color": "rgb(255, 255, 2)",
+          "color": "rgb(0, 0, 0)",
+          "border-radius": "0px",
+          "box-shadow": "none",
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "text-indent": "0px",
+          "flex-direction": "row",
+          "grid-auto-flow": "row",
+          "transition": "all",
+          "transform": "none",
+          "mix-blend-mode": "normal",
+          "opacity": "1"
+        }
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "classes": "index_contents__YVkKY",
+        "rect": {
+          "x": 1875,
+          "y": 314,
+          "width": 360,
+          "height": 216
+        },
+        "styles": {
+          "display": "flex",
+          "position": "static",
+          "overflow": "visible",
+          "overflow-x": "visible",
+          "overflow-y": "visible",
+          "scroll-snap-type": "none",
+          "scroll-snap-align": "none",
+          "width": "1200px",
+          "height": "720px",
+          "padding": "50px",
+          "margin": "0px",
+          "gap": "normal",
+          "background-color": "rgb(255, 255, 2)",
+          "color": "rgb(0, 0, 0)",
+          "border-radius": "0px",
+          "box-shadow": "none",
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "text-indent": "0px",
+          "flex-direction": "row",
+          "grid-auto-flow": "row",
+          "transition": "all",
+          "transform": "none",
+          "mix-blend-mode": "normal",
+          "opacity": "1"
+        }
+      }
+    ],
+    "circles": [
+      {
+        "tag": "div",
+        "id": null,
+        "classes": "c-lesPJm c-lesPJm-ifOgKdU-css index_circle___AjIu",
+        "rect": {
+          "x": 159,
+          "y": 314,
+          "width": 216,
+          "height": 216
+        },
+        "styles": {
+          "display": "flex",
+          "position": "absolute",
+          "overflow": "visible",
+          "overflow-x": "visible",
+          "overflow-y": "visible",
+          "scroll-snap-type": "none",
+          "scroll-snap-align": "none",
+          "width": "720px",
+          "height": "720px",
+          "padding": "0px",
+          "margin": "0px",
+          "gap": "normal",
+          "background-color": "rgb(255, 255, 2)",
+          "color": "rgb(23, 23, 23)",
+          "border-radius": "9999px",
+          "box-shadow": "none",
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "text-indent": "0px",
+          "flex-direction": "row",
+          "grid-auto-flow": "row",
+          "transition": "all",
+          "transform": "none",
+          "mix-blend-mode": "normal",
+          "opacity": "1",
+          "filter": "none"
+        }
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "classes": "c-lesPJm c-lesPJm-ikAXRTc-css index_circle___AjIu",
+        "rect": {
+          "x": 689,
+          "y": 314,
+          "width": 216,
+          "height": 216
+        },
+        "styles": {
+          "display": "block",
+          "position": "static",
+          "overflow": "visible",
+          "overflow-x": "visible",
+          "overflow-y": "visible",
+          "scroll-snap-type": "none",
+          "scroll-snap-align": "none",
+          "width": "720px",
+          "height": "720px",
+          "padding": "0px",
+          "margin": "0px",
+          "gap": "normal",
+          "background-color": "color(display-p3 0.99 0.4 0.02)",
+          "color": "rgb(0, 0, 0)",
+          "border-radius": "9999px",
+          "box-shadow": "none",
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "text-indent": "0px",
+          "flex-direction": "row",
+          "grid-auto-flow": "row",
+          "transition": "all",
+          "transform": "none",
+          "mix-blend-mode": "normal",
+          "opacity": "1",
+          "filter": "none"
+        }
+      }
+    ],
+    "topBarCandidates": [
+      {
+        "tag": "div",
+        "id": null,
+        "classes": "index_center__dvDjE scrollable-content",
+        "rect": {
+          "x": -405,
+          "y": 62,
+          "width": 1200,
+          "height": 720
+        },
+        "styles": {
+          "display": "block",
+          "position": "fixed",
+          "overflow": "visible",
+          "overflow-x": "visible",
+          "overflow-y": "visible",
+          "scroll-snap-type": "none",
+          "scroll-snap-align": "none",
+          "width": "1200px",
+          "height": "720px",
+          "padding": "0px",
+          "margin": "0px",
+          "gap": "normal",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "border-radius": "0px",
+          "box-shadow": "none",
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "text-indent": "0px",
+          "flex-direction": "row",
+          "grid-auto-flow": "row",
+          "transition": "all",
+          "transform": "matrix(1, 0, 0, 1, -600, -360)",
+          "mix-blend-mode": "normal",
+          "opacity": "1"
+        },
+        "childCount": 1,
+        "childSample": [
+          {
+            "tag": "div",
+            "id": null,
+            "classes": "index_frames__d9hw4",
+            "rect": {
+              "x": 15,
+              "y": 314,
+              "width": 360,
+              "height": 216
+            },
+            "styles": {
+              "display": "flex",
+              "position": "static",
+              "overflow": "visible",
+              "overflow-x": "visible",
+              "overflow-y": "visible",
+              "scroll-snap-type": "none",
+              "scroll-snap-align": "none",
+              "width": "1200px",
+              "height": "720px",
+              "padding": "0px",
+              "margin": "0px",
+              "gap": "8px",
+              "background-color": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "border-radius": "0px",
+              "box-shadow": "none",
+              "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "font-size": "16px",
+              "font-weight": "400",
+              "line-height": "normal",
+              "text-indent": "0px",
+              "flex-direction": "row",
+              "grid-auto-flow": "row",
+              "transition": "all",
+              "transform": "matrix(0.3, 0, 0, 0.3, 0, 0)",
+              "mix-blend-mode": "normal",
+              "opacity": "1"
+            }
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "classes": "minimap_minimap___nmXF",
+        "rect": {
+          "x": 100,
+          "y": 64,
+          "width": 191,
+          "height": 18
+        },
+        "styles": {
+          "display": "block",
+          "position": "fixed",
+          "overflow": "visible",
+          "overflow-x": "visible",
+          "overflow-y": "visible",
+          "scroll-snap-type": "none",
+          "scroll-snap-align": "none",
+          "width": "191px",
+          "height": "18px",
+          "padding": "0px",
+          "margin": "0px",
+          "gap": "normal",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "border-radius": "0px",
+          "box-shadow": "none",
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "text-indent": "0px",
+          "flex-direction": "row",
+          "grid-auto-flow": "row",
+          "transition": "all",
+          "transform": "matrix(1, 0, 0, 1, -95.5, 0)",
+          "mix-blend-mode": "normal",
+          "opacity": "1"
+        },
+        "childCount": 1,
+        "childSample": [
+          {
+            "tag": "div",
+            "id": null,
+            "classes": "c-lesPJm c-lesPJm-icvxujr-css",
+            "rect": {
+              "x": 100,
+              "y": 64,
+              "width": 191,
+              "height": 18
+            },
+            "styles": {
+              "display": "flex",
+              "position": "static",
+              "overflow": "visible",
+              "overflow-x": "visible",
+              "overflow-y": "visible",
+              "scroll-snap-type": "none",
+              "scroll-snap-align": "none",
+              "width": "191px",
+              "height": "18px",
+              "padding": "0px",
+              "margin": "0px",
+              "gap": "9px",
+              "background-color": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "border-radius": "0px",
+              "box-shadow": "none",
+              "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "font-size": "16px",
+              "font-weight": "400",
+              "line-height": "normal",
+              "text-indent": "0px",
+              "flex-direction": "row",
+              "grid-auto-flow": "row",
+              "transition": "all",
+              "transform": "none",
+              "mix-blend-mode": "normal",
+              "opacity": "1"
+            }
+          }
+        ]
+      }
+    ],
+    "watched": {
+      "yellow_0": {
+        "tag": "div",
+        "id": null,
+        "classes": "c-lesPJm c-lesPJm-ifOgKdU-css index_circle___AjIu",
+        "rect": {
+          "x": 159,
+          "y": 314,
+          "width": 216,
+          "height": 216
+        },
+        "styles": {
+          "display": "flex",
+          "position": "absolute",
+          "overflow": "visible",
+          "overflow-x": "visible",
+          "overflow-y": "visible",
+          "scroll-snap-type": "none",
+          "scroll-snap-align": "none",
+          "width": "720px",
+          "height": "720px",
+          "padding": "0px",
+          "margin": "0px",
+          "gap": "normal",
+          "background-color": "rgb(255, 255, 2)",
+          "color": "rgb(23, 23, 23)",
+          "border-radius": "9999px",
+          "box-shadow": "none",
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "text-indent": "0px",
+          "flex-direction": "row",
+          "grid-auto-flow": "row",
+          "transition": "all",
+          "transform": "none",
+          "mix-blend-mode": "normal",
+          "opacity": "1"
+        }
+      },
+      "yellow_1": {
+        "tag": "div",
+        "id": null,
+        "classes": "c-lesPJm c-lesPJm-ieVjYMY-css",
+        "rect": {
+          "x": 1875,
+          "y": 314,
+          "width": 360,
+          "height": 216
+        },
+        "styles": {
+          "display": "block",
+          "position": "static",
+          "overflow": "clip visible",
+          "overflow-x": "clip",
+          "overflow-y": "visible",
+          "scroll-snap-type": "none",
+          "scroll-snap-align": "none",
+          "width": "1200px",
+          "height": "720px",
+          "padding": "0px",
+          "margin": "0px",
+          "gap": "normal",
+          "background-color": "rgb(255, 255, 2)",
+          "color": "rgb(0, 0, 0)",
+          "border-radius": "0px",
+          "box-shadow": "none",
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "text-indent": "0px",
+          "flex-direction": "row",
+          "grid-auto-flow": "row",
+          "transition": "all",
+          "transform": "none",
+          "mix-blend-mode": "normal",
+          "opacity": "1"
+        }
+      },
+      "yellow_2": {
+        "tag": "div",
+        "id": null,
+        "classes": "index_contents__YVkKY",
+        "rect": {
+          "x": 1875,
+          "y": 314,
+          "width": 360,
+          "height": 216
+        },
+        "styles": {
+          "display": "flex",
+          "position": "static",
+          "overflow": "visible",
+          "overflow-x": "visible",
+          "overflow-y": "visible",
+          "scroll-snap-type": "none",
+          "scroll-snap-align": "none",
+          "width": "1200px",
+          "height": "720px",
+          "padding": "50px",
+          "margin": "0px",
+          "gap": "normal",
+          "background-color": "rgb(255, 255, 2)",
+          "color": "rgb(0, 0, 0)",
+          "border-radius": "0px",
+          "box-shadow": "none",
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "text-indent": "0px",
+          "flex-direction": "row",
+          "grid-auto-flow": "row",
+          "transition": "all",
+          "transform": "none",
+          "mix-blend-mode": "normal",
+          "opacity": "1"
+        }
+      },
+      "circle_0": {
+        "tag": "div",
+        "id": null,
+        "classes": "c-lesPJm c-lesPJm-ifOgKdU-css index_circle___AjIu",
+        "rect": {
+          "x": 159,
+          "y": 314,
+          "width": 216,
+          "height": 216
+        },
+        "styles": {
+          "display": "flex",
+          "position": "absolute",
+          "overflow": "visible",
+          "overflow-x": "visible",
+          "overflow-y": "visible",
+          "scroll-snap-type": "none",
+          "scroll-snap-align": "none",
+          "width": "720px",
+          "height": "720px",
+          "padding": "0px",
+          "margin": "0px",
+          "gap": "normal",
+          "background-color": "rgb(255, 255, 2)",
+          "color": "rgb(23, 23, 23)",
+          "border-radius": "9999px",
+          "box-shadow": "none",
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "text-indent": "0px",
+          "flex-direction": "row",
+          "grid-auto-flow": "row",
+          "transition": "all",
+          "transform": "none",
+          "mix-blend-mode": "normal",
+          "opacity": "1",
+          "filter": "none"
+        }
+      },
+      "circle_1": {
+        "tag": "div",
+        "id": null,
+        "classes": "c-lesPJm c-lesPJm-ikAXRTc-css index_circle___AjIu",
+        "rect": {
+          "x": 689,
+          "y": 314,
+          "width": 216,
+          "height": 216
+        },
+        "styles": {
+          "display": "block",
+          "position": "static",
+          "overflow": "visible",
+          "overflow-x": "visible",
+          "overflow-y": "visible",
+          "scroll-snap-type": "none",
+          "scroll-snap-align": "none",
+          "width": "720px",
+          "height": "720px",
+          "padding": "0px",
+          "margin": "0px",
+          "gap": "normal",
+          "background-color": "color(display-p3 0.99 0.4 0.02)",
+          "color": "rgb(0, 0, 0)",
+          "border-radius": "9999px",
+          "box-shadow": "none",
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "text-indent": "0px",
+          "flex-direction": "row",
+          "grid-auto-flow": "row",
+          "transition": "all",
+          "transform": "none",
+          "mix-blend-mode": "normal",
+          "opacity": "1",
+          "filter": "none"
+        }
+      },
+      "topbar_0": {
+        "tag": "div",
+        "id": null,
+        "classes": "index_center__dvDjE scrollable-content",
+        "rect": {
+          "x": -405,
+          "y": 62,
+          "width": 1200,
+          "height": 720
+        },
+        "styles": {
+          "display": "block",
+          "position": "fixed",
+          "overflow": "visible",
+          "overflow-x": "visible",
+          "overflow-y": "visible",
+          "scroll-snap-type": "none",
+          "scroll-snap-align": "none",
+          "width": "1200px",
+          "height": "720px",
+          "padding": "0px",
+          "margin": "0px",
+          "gap": "normal",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "border-radius": "0px",
+          "box-shadow": "none",
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "text-indent": "0px",
+          "flex-direction": "row",
+          "grid-auto-flow": "row",
+          "transition": "all",
+          "transform": "matrix(1, 0, 0, 1, -600, -360)",
+          "mix-blend-mode": "normal",
+          "opacity": "1"
+        },
+        "childCount": 1,
+        "childSample": [
+          {
+            "tag": "div",
+            "id": null,
+            "classes": "index_frames__d9hw4",
+            "rect": {
+              "x": 15,
+              "y": 314,
+              "width": 360,
+              "height": 216
+            },
+            "styles": {
+              "display": "flex",
+              "position": "static",
+              "overflow": "visible",
+              "overflow-x": "visible",
+              "overflow-y": "visible",
+              "scroll-snap-type": "none",
+              "scroll-snap-align": "none",
+              "width": "1200px",
+              "height": "720px",
+              "padding": "0px",
+              "margin": "0px",
+              "gap": "8px",
+              "background-color": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "border-radius": "0px",
+              "box-shadow": "none",
+              "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "font-size": "16px",
+              "font-weight": "400",
+              "line-height": "normal",
+              "text-indent": "0px",
+              "flex-direction": "row",
+              "grid-auto-flow": "row",
+              "transition": "all",
+              "transform": "matrix(0.3, 0, 0, 0.3, 0, 0)",
+              "mix-blend-mode": "normal",
+              "opacity": "1"
+            }
+          }
+        ]
+      },
+      "topbar_1": {
+        "tag": "div",
+        "id": null,
+        "classes": "minimap_minimap___nmXF",
+        "rect": {
+          "x": 100,
+          "y": 64,
+          "width": 191,
+          "height": 18
+        },
+        "styles": {
+          "display": "block",
+          "position": "fixed",
+          "overflow": "visible",
+          "overflow-x": "visible",
+          "overflow-y": "visible",
+          "scroll-snap-type": "none",
+          "scroll-snap-align": "none",
+          "width": "191px",
+          "height": "18px",
+          "padding": "0px",
+          "margin": "0px",
+          "gap": "normal",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "border-radius": "0px",
+          "box-shadow": "none",
+          "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "normal",
+          "text-indent": "0px",
+          "flex-direction": "row",
+          "grid-auto-flow": "row",
+          "transition": "all",
+          "transform": "matrix(1, 0, 0, 1, -95.5, 0)",
+          "mix-blend-mode": "normal",
+          "opacity": "1"
+        },
+        "childCount": 1,
+        "childSample": [
+          {
+            "tag": "div",
+            "id": null,
+            "classes": "c-lesPJm c-lesPJm-icvxujr-css",
+            "rect": {
+              "x": 100,
+              "y": 64,
+              "width": 191,
+              "height": 18
+            },
+            "styles": {
+              "display": "flex",
+              "position": "static",
+              "overflow": "visible",
+              "overflow-x": "visible",
+              "overflow-y": "visible",
+              "scroll-snap-type": "none",
+              "scroll-snap-align": "none",
+              "width": "191px",
+              "height": "18px",
+              "padding": "0px",
+              "margin": "0px",
+              "gap": "9px",
+              "background-color": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "border-radius": "0px",
+              "box-shadow": "none",
+              "font-family": "X, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "font-size": "16px",
+              "font-weight": "400",
+              "line-height": "normal",
+              "text-indent": "0px",
+              "flex-direction": "row",
+              "grid-auto-flow": "row",
+              "transition": "all",
+              "transform": "none",
+              "mix-blend-mode": "normal",
+              "opacity": "1"
+            }
+          }
+        ]
+      }
+    },
+    "autonomousMotion": []
+  }
+}

@@ -1,0 +1,1490 @@
+{
+  "desktop": {
+    "url": "https://sa-m.fr/",
+    "title": "Samuel Dumez",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "html": {
+      "tag": "html",
+      "id": null,
+      "classes": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 800
+      },
+      "styles": {
+        "display": "block",
+        "position": "static",
+        "overflow": "visible",
+        "overflow-x": "visible",
+        "overflow-y": "visible",
+        "width": "1280px",
+        "height": "800px",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "background-image": "none",
+        "color": "rgb(0, 0, 0)",
+        "border-radius": "0px",
+        "box-shadow": "none",
+        "border": "0px none rgb(0, 0, 0)",
+        "font-family": "Times",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "normal",
+        "letter-spacing": "normal",
+        "text-transform": "none",
+        "text-align": "start",
+        "flex-direction": "row",
+        "align-items": "normal",
+        "justify-content": "normal",
+        "transition": "all",
+        "transform": "none",
+        "transform-origin": "640px 400px",
+        "mix-blend-mode": "normal",
+        "opacity": "1",
+        "z-index": "auto"
+      },
+      "innerTextSample": "1\nS\n7\nL\n2\nD\n8\nP\n3\nS\n6\nM\n5\nM\n4\nW\nINFO\n1.\n1.\n2.\n3.\n4.\nINFO\nMy name\nMy surname\nPeople call me\nWhat i mainly do\n1.\n5.\n6.\n7.\n8.\nINFO\nBut i also do\nPrincipal hobbie\nWhere i come from\nWhere i work\nCONTACT\nm.",
+      "childCount": 2
+    },
+    "body": {
+      "tag": "body",
+      "id": null,
+      "classes": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 800
+      },
+      "styles": {
+        "display": "block",
+        "position": "static",
+        "overflow": "visible",
+        "overflow-x": "visible",
+        "overflow-y": "visible",
+        "width": "1280px",
+        "height": "800px",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "background-image": "none",
+        "color": "rgb(0, 0, 0)",
+        "border-radius": "0px",
+        "box-shadow": "none",
+        "border": "0px none rgb(0, 0, 0)",
+        "font-family": "Arial, Helvetica, sans-serif",
+        "font-size": "16px",
+        "font-weight": "100",
+        "line-height": "normal",
+        "letter-spacing": "normal",
+        "text-transform": "none",
+        "text-align": "start",
+        "flex-direction": "row",
+        "align-items": "normal",
+        "justify-content": "normal",
+        "transition": "all",
+        "transform": "none",
+        "transform-origin": "640px 400px",
+        "mix-blend-mode": "normal",
+        "opacity": "1",
+        "z-index": "auto"
+      },
+      "innerTextSample": "1\nS\n7\nL\n2\nD\n8\nP\n3\nS\n6\nM\n5\nM\n4\nW\nINFO\n1.\n1.\n2.\n3.\n4.\nINFO\nMy name\nMy surname\nPeople call me\nWhat i mainly do\n1.\n5.\n6.\n7.\n8.\nINFO\nBut i also do\nPrincipal hobbie\nWhere i come from\nWhere i work\nCONTACT\nm.",
+      "childCount": 5
+    },
+    "bodyChildren": [
+      {
+        "tag": "div",
+        "id": null,
+        "classes": "square-container-d",
+        "rect": {
+          "x": 32,
+          "y": -40,
+          "width": 1216,
+          "height": 567
+        },
+        "styles": {
+          "display": "flex",
+          "position": "relative",
+          "overflow": "visible",
+          "overflow-x": "visible",
+          "overflow-y": "visible",
+          "width": "1216px",
+          "height": "567.438px",
+          "padding": "0px",
+          "margin": "0px 32px",
+          "gap": "normal",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "background-image": "none",
+          "color": "rgb(0, 0, 0)",
+          "border-radius": "0px",
+          "box-shadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "16px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "letter-spacing": "normal",
+          "text-transform": "none",
+          "text-align": "start",
+          "flex-direction": "row",
+          "align-items": "normal",
+          "justify-content": "normal",
+          "transition": "all",
+          "transform": "none",
+          "transform-origin": "608px 283.719px",
+          "mix-blend-mode": "normal",
+          "opacity": "1",
+          "z-index": "auto"
+        },
+        "innerTextSample": "1\nS\n7\nL\n2\nD\n8\nP\n3\nS\n6\nM\n5\nM\n4\nW",
+        "childCount": 105
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "classes": "square-container",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "display": "none",
+          "position": "static",
+          "overflow": "visible",
+          "overflow-x": "visible",
+          "overflow-y": "visible",
+          "width": "auto",
+          "height": "auto",
+          "padding": "0px",
+          "margin": "0px",
+          "gap": "normal",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "background-image": "none",
+          "color": "rgb(0, 0, 0)",
+          "border-radius": "0px",
+          "box-shadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "16px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "letter-spacing": "normal",
+          "text-transform": "none",
+          "text-align": "start",
+          "flex-direction": "row",
+          "align-items": "normal",
+          "justify-content": "normal",
+          "transition": "all",
+          "transform": "none",
+          "transform-origin": "50% 50%",
+          "mix-blend-mode": "normal",
+          "opacity": "1",
+          "z-index": "auto"
+        },
+        "innerTextSample": "4 \n                W\n            \n        \n        \n            \n\n            \n        \n\n        \n            \n\n            \n        \n        \n            \n\n            \n        \n        \n            ",
+        "childCount": 140
+      },
+      {
+        "tag": "footer",
+        "id": null,
+        "classes": "",
+        "rect": {
+          "x": 13,
+          "y": 699,
+          "width": 1254,
+          "height": 101
+        },
+        "styles": {
+          "display": "flex",
+          "position": "fixed",
+          "overflow": "visible",
+          "overflow-x": "visible",
+          "overflow-y": "visible",
+          "width": "1254.39px",
+          "height": "100.594px",
+          "padding": "0px",
+          "margin": "0px 12.8125px 0px 12.7969px",
+          "gap": "normal",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "background-image": "none",
+          "color": "rgb(0, 0, 0)",
+          "border-radius": "0px",
+          "box-shadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "12.8px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "letter-spacing": "normal",
+          "text-transform": "none",
+          "text-align": "start",
+          "flex-direction": "row",
+          "align-items": "normal",
+          "justify-content": "space-between",
+          "transition": "all",
+          "transform": "none",
+          "transform-origin": "627.195px 50.2969px",
+          "mix-blend-mode": "normal",
+          "opacity": "1",
+          "z-index": "auto"
+        },
+        "innerTextSample": "INFO\n1.\n1.\n2.\n3.\n4.\nINFO\nMy name\nMy surname\nPeople call me\nWhat i mainly do\n1.\n5.\n6.\n7.\n8.\nINFO\nBut i also do\nPrincipal hobbie\nWhere i come from\nWhere i work\nCONTACT\nm.\nt.\ni.\n©\ncontact@sa-m.fr\n+33(0)6",
+        "childCount": 3
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "classes": "",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "display": "none",
+          "position": "static",
+          "overflow": "visible",
+          "overflow-x": "visible",
+          "overflow-y": "visible",
+          "width": "auto",
+          "height": "auto",
+          "padding": "0px",
+          "margin": "0px",
+          "gap": "normal",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "background-image": "none",
+          "color": "rgb(0, 0, 0)",
+          "border-radius": "0px",
+          "box-shadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "16px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "letter-spacing": "normal",
+          "text-transform": "none",
+          "text-align": "start",
+          "flex-direction": "row",
+          "align-items": "normal",
+          "justify-content": "normal",
+          "transition": "all",
+          "transform": "none",
+          "transform-origin": "50% 50%",
+          "mix-blend-mode": "normal",
+          "opacity": "1",
+          "z-index": "auto"
+        },
+        "innerTextSample": "",
+        "childCount": 0
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "classes": "",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "display": "none",
+          "position": "static",
+          "overflow": "visible",
+          "overflow-x": "visible",
+          "overflow-y": "visible",
+          "width": "auto",
+          "height": "auto",
+          "padding": "0px",
+          "margin": "0px",
+          "gap": "normal",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "background-image": "none",
+          "color": "rgb(0, 0, 0)",
+          "border-radius": "0px",
+          "box-shadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "16px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "letter-spacing": "normal",
+          "text-transform": "none",
+          "text-align": "start",
+          "flex-direction": "row",
+          "align-items": "normal",
+          "justify-content": "normal",
+          "transition": "all",
+          "transform": "none",
+          "transform-origin": "50% 50%",
+          "mix-blend-mode": "normal",
+          "opacity": "1",
+          "z-index": "auto"
+        },
+        "innerTextSample": "",
+        "childCount": 0
+      }
+    ],
+    "bodyChildCount": 5,
+    "displayTexts": [
+      {
+        "text": "S",
+        "styles": {
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "44.8px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "color": "rgb(0, 0, 0)",
+          "text-transform": "none",
+          "letter-spacing": "normal"
+        },
+        "rect": {
+          "x": 518,
+          "y": 41,
+          "width": 81,
+          "height": 81
+        }
+      },
+      {
+        "text": "L",
+        "styles": {
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "44.8px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "color": "rgb(0, 0, 0)",
+          "text-transform": "none",
+          "letter-spacing": "normal"
+        },
+        "rect": {
+          "x": 1167,
+          "y": 41,
+          "width": 81,
+          "height": 81
+        }
+      },
+      {
+        "text": "M",
+        "styles": {
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "44.8px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "color": "rgb(0, 0, 0)",
+          "text-transform": "none",
+          "letter-spacing": "normal"
+        },
+        "rect": {
+          "x": 32,
+          "y": 122,
+          "width": 81,
+          "height": 81
+        }
+      },
+      {
+        "text": "S",
+        "styles": {
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "44.8px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "color": "rgb(0, 0, 0)",
+          "text-transform": "none",
+          "letter-spacing": "normal"
+        },
+        "rect": {
+          "x": 194,
+          "y": 122,
+          "width": 81,
+          "height": 81
+        }
+      },
+      {
+        "text": "I",
+        "styles": {
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "44.8px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "color": "rgb(0, 0, 0)",
+          "text-transform": "none",
+          "letter-spacing": "normal"
+        },
+        "rect": {
+          "x": 275,
+          "y": 122,
+          "width": 81,
+          "height": 81
+        }
+      },
+      {
+        "text": "C",
+        "styles": {
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "44.8px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "color": "rgb(0, 0, 0)",
+          "text-transform": "none",
+          "letter-spacing": "normal"
+        },
+        "rect": {
+          "x": 356,
+          "y": 122,
+          "width": 81,
+          "height": 81
+        }
+      },
+      {
+        "text": "P",
+        "styles": {
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "44.8px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "color": "rgb(0, 0, 0)",
+          "text-transform": "none",
+          "letter-spacing": "normal"
+        },
+        "rect": {
+          "x": 437,
+          "y": 122,
+          "width": 81,
+          "height": 81
+        }
+      },
+      {
+        "text": "A",
+        "styles": {
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "44.8px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "color": "rgb(0, 0, 0)",
+          "text-transform": "none",
+          "letter-spacing": "normal"
+        },
+        "rect": {
+          "x": 518,
+          "y": 122,
+          "width": 81,
+          "height": 81
+        }
+      },
+      {
+        "text": "R",
+        "styles": {
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "44.8px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "color": "rgb(0, 0, 0)",
+          "text-transform": "none",
+          "letter-spacing": "normal"
+        },
+        "rect": {
+          "x": 599,
+          "y": 122,
+          "width": 81,
+          "height": 81
+        }
+      },
+      {
+        "text": "I",
+        "styles": {
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "44.8px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "color": "rgb(0, 0, 0)",
+          "text-transform": "none",
+          "letter-spacing": "normal"
+        },
+        "rect": {
+          "x": 681,
+          "y": 122,
+          "width": 81,
+          "height": 81
+        }
+      },
+      {
+        "text": "S",
+        "styles": {
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "44.8px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "color": "rgb(0, 0, 0)",
+          "text-transform": "none",
+          "letter-spacing": "normal"
+        },
+        "rect": {
+          "x": 762,
+          "y": 122,
+          "width": 81,
+          "height": 81
+        }
+      },
+      {
+        "text": "Y",
+        "styles": {
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "44.8px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "color": "rgb(0, 0, 0)",
+          "text-transform": "none",
+          "letter-spacing": "normal"
+        },
+        "rect": {
+          "x": 1167,
+          "y": 122,
+          "width": 81,
+          "height": 81
+        }
+      },
+      {
+        "text": "M",
+        "styles": {
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "44.8px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "color": "rgb(0, 0, 0)",
+          "text-transform": "none",
+          "letter-spacing": "normal"
+        },
+        "rect": {
+          "x": 32,
+          "y": 203,
+          "width": 81,
+          "height": 81
+        }
+      },
+      {
+        "text": "U",
+        "styles": {
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "44.8px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "color": "rgb(0, 0, 0)",
+          "text-transform": "none",
+          "letter-spacing": "normal"
+        },
+        "rect": {
+          "x": 113,
+          "y": 203,
+          "width": 81,
+          "height": 81
+        }
+      },
+      {
+        "text": "S",
+        "styles": {
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "44.8px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "color": "rgb(0, 0, 0)",
+          "text-transform": "none",
+          "letter-spacing": "normal"
+        },
+        "rect": {
+          "x": 194,
+          "y": 203,
+          "width": 81,
+          "height": 81
+        }
+      },
+      {
+        "text": "I",
+        "styles": {
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "44.8px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "color": "rgb(0, 0, 0)",
+          "text-transform": "none",
+          "letter-spacing": "normal"
+        },
+        "rect": {
+          "x": 275,
+          "y": 203,
+          "width": 81,
+          "height": 81
+        }
+      },
+      {
+        "text": "C",
+        "styles": {
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "44.8px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "color": "rgb(0, 0, 0)",
+          "text-transform": "none",
+          "letter-spacing": "normal"
+        },
+        "rect": {
+          "x": 356,
+          "y": 203,
+          "width": 81,
+          "height": 81
+        }
+      },
+      {
+        "text": "M",
+        "styles": {
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "44.8px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "color": "rgb(0, 0, 0)",
+          "text-transform": "none",
+          "letter-spacing": "normal"
+        },
+        "rect": {
+          "x": 518,
+          "y": 203,
+          "width": 81,
+          "height": 81
+        }
+      },
+      {
+        "text": "A",
+        "styles": {
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "44.8px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "color": "rgb(0, 0, 0)",
+          "text-transform": "none",
+          "letter-spacing": "normal"
+        },
+        "rect": {
+          "x": 762,
+          "y": 203,
+          "width": 81,
+          "height": 81
+        }
+      },
+      {
+        "text": "O",
+        "styles": {
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "44.8px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "color": "rgb(0, 0, 0)",
+          "text-transform": "none",
+          "letter-spacing": "normal"
+        },
+        "rect": {
+          "x": 1167,
+          "y": 203,
+          "width": 81,
+          "height": 81
+        }
+      },
+      {
+        "text": "M",
+        "styles": {
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "44.8px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "color": "rgb(0, 0, 0)",
+          "text-transform": "none",
+          "letter-spacing": "normal"
+        },
+        "rect": {
+          "x": 113,
+          "y": 284,
+          "width": 81,
+          "height": 81
+        }
+      },
+      {
+        "text": "U",
+        "styles": {
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "44.8px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "color": "rgb(0, 0, 0)",
+          "text-transform": "none",
+          "letter-spacing": "normal"
+        },
+        "rect": {
+          "x": 518,
+          "y": 284,
+          "width": 81,
+          "height": 81
+        }
+      },
+      {
+        "text": "M",
+        "styles": {
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "44.8px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "color": "rgb(0, 0, 0)",
+          "text-transform": "none",
+          "letter-spacing": "normal"
+        },
+        "rect": {
+          "x": 762,
+          "y": 284,
+          "width": 81,
+          "height": 81
+        }
+      },
+      {
+        "text": "O",
+        "styles": {
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "44.8px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "color": "rgb(0, 0, 0)",
+          "text-transform": "none",
+          "letter-spacing": "normal"
+        },
+        "rect": {
+          "x": 843,
+          "y": 284,
+          "width": 81,
+          "height": 81
+        }
+      },
+      {
+        "text": "T",
+        "styles": {
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "44.8px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "color": "rgb(0, 0, 0)",
+          "text-transform": "none",
+          "letter-spacing": "normal"
+        },
+        "rect": {
+          "x": 924,
+          "y": 284,
+          "width": 81,
+          "height": 81
+        }
+      },
+      {
+        "text": "I",
+        "styles": {
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "44.8px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "color": "rgb(0, 0, 0)",
+          "text-transform": "none",
+          "letter-spacing": "normal"
+        },
+        "rect": {
+          "x": 1005,
+          "y": 284,
+          "width": 81,
+          "height": 81
+        }
+      },
+      {
+        "text": "O",
+        "styles": {
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "44.8px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "color": "rgb(0, 0, 0)",
+          "text-transform": "none",
+          "letter-spacing": "normal"
+        },
+        "rect": {
+          "x": 1086,
+          "y": 284,
+          "width": 81,
+          "height": 81
+        }
+      },
+      {
+        "text": "N",
+        "styles": {
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "44.8px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "color": "rgb(0, 0, 0)",
+          "text-transform": "none",
+          "letter-spacing": "normal"
+        },
+        "rect": {
+          "x": 1167,
+          "y": 284,
+          "width": 81,
+          "height": 81
+        }
+      },
+      {
+        "text": "W",
+        "styles": {
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "44.8px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "color": "rgb(0, 0, 0)",
+          "text-transform": "none",
+          "letter-spacing": "normal"
+        },
+        "rect": {
+          "x": 32,
+          "y": 365,
+          "width": 81,
+          "height": 81
+        }
+      },
+      {
+        "text": "E",
+        "styles": {
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "44.8px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "color": "rgb(0, 0, 0)",
+          "text-transform": "none",
+          "letter-spacing": "normal"
+        },
+        "rect": {
+          "x": 113,
+          "y": 365,
+          "width": 81,
+          "height": 81
+        }
+      }
+    ],
+    "animated": [],
+    "links": [
+      {
+        "text": "contact@sa-m.fr",
+        "href": "mailto:contact@sa-m.fr",
+        "styles": {
+          "color": "rgb(0, 128, 0)",
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "12.8px",
+          "font-weight": "100",
+          "text-decoration": "underline",
+          "display": "inline",
+          "padding": "0px"
+        },
+        "rect": {
+          "x": 1166,
+          "y": 727,
+          "width": 94,
+          "height": 15
+        }
+      },
+      {
+        "text": "+33(0)630626363",
+        "href": "tel:+33630626263",
+        "styles": {
+          "color": "rgb(0, 128, 0)",
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "12.8px",
+          "font-weight": "100",
+          "text-decoration": "underline",
+          "display": "inline",
+          "padding": "0px"
+        },
+        "rect": {
+          "x": 1166,
+          "y": 742,
+          "width": 101,
+          "height": 15
+        }
+      },
+      {
+        "text": "@samueldumez",
+        "href": "https://www.instagram.com/samueldumez/?hl=fr",
+        "styles": {
+          "color": "rgb(0, 128, 0)",
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "12.8px",
+          "font-weight": "100",
+          "text-decoration": "underline",
+          "display": "inline",
+          "padding": "0px"
+        },
+        "rect": {
+          "x": 1166,
+          "y": 757,
+          "width": 93,
+          "height": 15
+        }
+      },
+      {
+        "text": "2023",
+        "href": "https://fr.wikipedia.org/wiki/Coupe_du_monde_de_football_1998",
+        "styles": {
+          "color": "rgb(0, 128, 0)",
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "12.8px",
+          "font-weight": "100",
+          "text-decoration": "underline",
+          "display": "inline",
+          "padding": "0px"
+        },
+        "rect": {
+          "x": 1166,
+          "y": 772,
+          "width": 28,
+          "height": 15
+        }
+      }
+    ],
+    "images": [],
+    "imageCount": 0,
+    "svgs": [],
+    "svgCount": 0,
+    "fontFaces": [],
+    "keyframes": [],
+    "watched": {
+      "text_0": {
+        "text": "S",
+        "styles": {
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "44.8px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "color": "rgb(0, 0, 0)",
+          "text-transform": "none",
+          "letter-spacing": "normal"
+        },
+        "rect": {
+          "x": 518,
+          "y": 41,
+          "width": 81,
+          "height": 81
+        }
+      },
+      "text_1": {
+        "text": "L",
+        "styles": {
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "44.8px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "color": "rgb(0, 0, 0)",
+          "text-transform": "none",
+          "letter-spacing": "normal"
+        },
+        "rect": {
+          "x": 1167,
+          "y": 41,
+          "width": 81,
+          "height": 81
+        }
+      },
+      "text_2": {
+        "text": "M",
+        "styles": {
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "44.8px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "color": "rgb(0, 0, 0)",
+          "text-transform": "none",
+          "letter-spacing": "normal"
+        },
+        "rect": {
+          "x": 32,
+          "y": 122,
+          "width": 81,
+          "height": 81
+        }
+      },
+      "text_3": {
+        "text": "S",
+        "styles": {
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "44.8px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "color": "rgb(0, 0, 0)",
+          "text-transform": "none",
+          "letter-spacing": "normal"
+        },
+        "rect": {
+          "x": 194,
+          "y": 122,
+          "width": 81,
+          "height": 81
+        }
+      },
+      "text_4": {
+        "text": "I",
+        "styles": {
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "44.8px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "color": "rgb(0, 0, 0)",
+          "text-transform": "none",
+          "letter-spacing": "normal"
+        },
+        "rect": {
+          "x": 275,
+          "y": 122,
+          "width": 81,
+          "height": 81
+        }
+      }
+    },
+    "autonomousMotion": []
+  },
+  "mobile": {
+    "url": "https://sa-m.fr/",
+    "title": "Samuel Dumez",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "html": {
+      "tag": "html",
+      "id": null,
+      "classes": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844
+      },
+      "styles": {
+        "display": "block",
+        "position": "static",
+        "overflow": "visible",
+        "overflow-x": "visible",
+        "overflow-y": "visible",
+        "width": "390px",
+        "height": "844px",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "background-image": "none",
+        "color": "rgb(0, 0, 0)",
+        "border-radius": "0px",
+        "box-shadow": "none",
+        "border": "0px none rgb(0, 0, 0)",
+        "font-family": "Times",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "normal",
+        "letter-spacing": "normal",
+        "text-transform": "none",
+        "text-align": "start",
+        "flex-direction": "row",
+        "align-items": "normal",
+        "justify-content": "normal",
+        "transition": "all",
+        "transform": "none",
+        "transform-origin": "195px 422px",
+        "mix-blend-mode": "normal",
+        "opacity": "1",
+        "z-index": "auto"
+      },
+      "innerTextSample": "4\nW\n2\nD\n1\nS\n7\nL\n5\nM\n3\nS\n6\nM\n8\nP\nINFO\n1.\n1.\n2.\n3.\n4.\nINFO\nMy name\nMy surname\nPeople call me\nWhat i mainly do\n1.\n5.\n6.\n7.\n8.\nINFO\nBut i also do\nPrincipal hobbie\nWhere i come from\nWhere i work\nCONTACT\nm.",
+      "childCount": 2
+    },
+    "body": {
+      "tag": "body",
+      "id": null,
+      "classes": "",
+      "rect": {
+        "x": 0,
+        "y": 84,
+        "width": 390,
+        "height": 760
+      },
+      "styles": {
+        "display": "block",
+        "position": "static",
+        "overflow": "visible",
+        "overflow-x": "visible",
+        "overflow-y": "visible",
+        "width": "390px",
+        "height": "759.609px",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "background-image": "none",
+        "color": "rgb(0, 0, 0)",
+        "border-radius": "0px",
+        "box-shadow": "none",
+        "border": "0px none rgb(0, 0, 0)",
+        "font-family": "Arial, Helvetica, sans-serif",
+        "font-size": "16px",
+        "font-weight": "100",
+        "line-height": "normal",
+        "letter-spacing": "normal",
+        "text-transform": "none",
+        "text-align": "start",
+        "flex-direction": "row",
+        "align-items": "normal",
+        "justify-content": "normal",
+        "transition": "all",
+        "transform": "none",
+        "transform-origin": "195px 379.805px",
+        "mix-blend-mode": "normal",
+        "opacity": "1",
+        "z-index": "auto"
+      },
+      "innerTextSample": "4\nW\n2\nD\n1\nS\n7\nL\n5\nM\n3\nS\n6\nM\n8\nP\nINFO\n1.\n1.\n2.\n3.\n4.\nINFO\nMy name\nMy surname\nPeople call me\nWhat i mainly do\n1.\n5.\n6.\n7.\n8.\nINFO\nBut i also do\nPrincipal hobbie\nWhere i come from\nWhere i work\nCONTACT\nm.",
+      "childCount": 5
+    },
+    "bodyChildren": [
+      {
+        "tag": "div",
+        "id": null,
+        "classes": "square-container-d",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "display": "none",
+          "position": "relative",
+          "overflow": "visible",
+          "overflow-x": "visible",
+          "overflow-y": "visible",
+          "width": "auto",
+          "height": "auto",
+          "padding": "0px",
+          "margin": "0px 33.76px",
+          "gap": "normal",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "background-image": "none",
+          "color": "rgb(0, 0, 0)",
+          "border-radius": "0px",
+          "box-shadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "16px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "letter-spacing": "normal",
+          "text-transform": "none",
+          "text-align": "start",
+          "flex-direction": "row",
+          "align-items": "normal",
+          "justify-content": "normal",
+          "transition": "all",
+          "transform": "none",
+          "transform-origin": "50% 50%",
+          "mix-blend-mode": "normal",
+          "opacity": "1",
+          "z-index": "auto"
+        },
+        "innerTextSample": "2 \n                D\n            \n        \n        \n            \n\n            \n        \n        \n            \n\n            \n        \n        \n            \n\n            \n        \n        \n             ",
+        "childCount": 105
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "classes": "square-container",
+        "rect": {
+          "x": 0,
+          "y": 68,
+          "width": 390,
+          "height": 546
+        },
+        "styles": {
+          "display": "flex",
+          "position": "relative",
+          "overflow": "visible",
+          "overflow-x": "visible",
+          "overflow-y": "visible",
+          "width": "390px",
+          "height": "546px",
+          "padding": "0px",
+          "margin": "84.4px 0px 0px",
+          "gap": "normal",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "background-image": "none",
+          "color": "rgb(0, 0, 0)",
+          "border-radius": "0px",
+          "box-shadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "16px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "letter-spacing": "normal",
+          "text-transform": "none",
+          "text-align": "start",
+          "flex-direction": "row",
+          "align-items": "normal",
+          "justify-content": "normal",
+          "transition": "all",
+          "transform": "none",
+          "transform-origin": "195px 273px",
+          "mix-blend-mode": "normal",
+          "opacity": "1",
+          "z-index": "auto"
+        },
+        "innerTextSample": "4\nW\n2\nD\n1\nS\n7\nL\n5\nM\n3\nS\n6\nM\n8\nP",
+        "childCount": 140
+      },
+      {
+        "tag": "footer",
+        "id": null,
+        "classes": "",
+        "rect": {
+          "x": 10,
+          "y": 770,
+          "width": 371,
+          "height": 75
+        },
+        "styles": {
+          "display": "flex",
+          "position": "fixed",
+          "overflow": "visible",
+          "overflow-x": "visible",
+          "overflow-y": "visible",
+          "width": "370.5px",
+          "height": "74.5px",
+          "padding": "0px",
+          "margin": "0px 9.75px",
+          "gap": "normal",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "background-image": "none",
+          "color": "rgb(0, 0, 0)",
+          "border-radius": "0px",
+          "box-shadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "9.75px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "letter-spacing": "normal",
+          "text-transform": "none",
+          "text-align": "start",
+          "flex-direction": "row",
+          "align-items": "normal",
+          "justify-content": "space-between",
+          "transition": "all",
+          "transform": "none",
+          "transform-origin": "185.25px 37.25px",
+          "mix-blend-mode": "normal",
+          "opacity": "1",
+          "z-index": "auto"
+        },
+        "innerTextSample": "INFO\n1.\n1.\n2.\n3.\n4.\nINFO\nMy name\nMy surname\nPeople call me\nWhat i mainly do\n1.\n5.\n6.\n7.\n8.\nINFO\nBut i also do\nPrincipal hobbie\nWhere i come from\nWhere i work\nCONTACT\nm.\nt.\ni.\n©\ncontact@sa-m.fr\n+33(0)6",
+        "childCount": 3
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "classes": "",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "display": "none",
+          "position": "static",
+          "overflow": "visible",
+          "overflow-x": "visible",
+          "overflow-y": "visible",
+          "width": "auto",
+          "height": "auto",
+          "padding": "0px",
+          "margin": "0px",
+          "gap": "normal",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "background-image": "none",
+          "color": "rgb(0, 0, 0)",
+          "border-radius": "0px",
+          "box-shadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "16px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "letter-spacing": "normal",
+          "text-transform": "none",
+          "text-align": "start",
+          "flex-direction": "row",
+          "align-items": "normal",
+          "justify-content": "normal",
+          "transition": "all",
+          "transform": "none",
+          "transform-origin": "50% 50%",
+          "mix-blend-mode": "normal",
+          "opacity": "1",
+          "z-index": "auto"
+        },
+        "innerTextSample": "",
+        "childCount": 0
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "classes": "",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "display": "none",
+          "position": "static",
+          "overflow": "visible",
+          "overflow-x": "visible",
+          "overflow-y": "visible",
+          "width": "auto",
+          "height": "auto",
+          "padding": "0px",
+          "margin": "0px",
+          "gap": "normal",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "background-image": "none",
+          "color": "rgb(0, 0, 0)",
+          "border-radius": "0px",
+          "box-shadow": "none",
+          "border": "0px none rgb(0, 0, 0)",
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "16px",
+          "font-weight": "100",
+          "line-height": "normal",
+          "letter-spacing": "normal",
+          "text-transform": "none",
+          "text-align": "start",
+          "flex-direction": "row",
+          "align-items": "normal",
+          "justify-content": "normal",
+          "transition": "all",
+          "transform": "none",
+          "transform-origin": "50% 50%",
+          "mix-blend-mode": "normal",
+          "opacity": "1",
+          "z-index": "auto"
+        },
+        "innerTextSample": "",
+        "childCount": 0
+      }
+    ],
+    "bodyChildCount": 5,
+    "displayTexts": [],
+    "animated": [],
+    "links": [
+      {
+        "text": "contact@sa-m.fr",
+        "href": "mailto:contact@sa-m.fr",
+        "styles": {
+          "color": "rgb(0, 128, 0)",
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "9.75px",
+          "font-weight": "100",
+          "text-decoration": "underline",
+          "display": "inline",
+          "padding": "0px"
+        },
+        "rect": {
+          "x": 303,
+          "y": 790,
+          "width": 72,
+          "height": 11
+        }
+      },
+      {
+        "text": "+33(0)630626363",
+        "href": "tel:+33630626263",
+        "styles": {
+          "color": "rgb(0, 128, 0)",
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "9.75px",
+          "font-weight": "100",
+          "text-decoration": "underline",
+          "display": "inline",
+          "padding": "0px"
+        },
+        "rect": {
+          "x": 303,
+          "y": 801,
+          "width": 77,
+          "height": 11
+        }
+      },
+      {
+        "text": "@samueldumez",
+        "href": "https://www.instagram.com/samueldumez/?hl=fr",
+        "styles": {
+          "color": "rgb(0, 128, 0)",
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "9.75px",
+          "font-weight": "100",
+          "text-decoration": "underline",
+          "display": "inline",
+          "padding": "0px"
+        },
+        "rect": {
+          "x": 303,
+          "y": 812,
+          "width": 71,
+          "height": 11
+        }
+      },
+      {
+        "text": "2023",
+        "href": "https://fr.wikipedia.org/wiki/Coupe_du_monde_de_football_1998",
+        "styles": {
+          "color": "rgb(0, 128, 0)",
+          "font-family": "Arial, Helvetica, sans-serif",
+          "font-size": "9.75px",
+          "font-weight": "100",
+          "text-decoration": "underline",
+          "display": "inline",
+          "padding": "0px"
+        },
+        "rect": {
+          "x": 303,
+          "y": 823,
+          "width": 22,
+          "height": 11
+        }
+      }
+    ],
+    "images": [],
+    "imageCount": 0,
+    "svgs": [],
+    "svgCount": 0,
+    "fontFaces": [],
+    "keyframes": [],
+    "watched": {},
+    "autonomousMotion": []
+  }
+}

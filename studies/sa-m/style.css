@@ -1,0 +1,118 @@
+/* Rebuild study of sa-m.fr — values from _tools/sa-m-values.json. */
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+/* ---------- Crossword grid ---------- */
+.square-container {
+  display: grid;
+  grid-template-columns: repeat(15, 81px);
+  grid-auto-rows: 81px;
+  width: max-content;
+  margin: 40px auto 0 auto;
+  padding: 0 32px;
+  box-sizing: content-box;
+}
+
+.square-container > i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  font-size: 44.8px;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1;
+  color: #000;
+  user-select: none;
+}
+
+/* ---------- Footer (INFO clue sections) ---------- */
+footer {
+  max-width: 1215px;
+  margin: 48px auto 24px auto;
+  padding: 0 32px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 100;
+  line-height: 1.5;
+}
+
+.info h2 {
+  font-size: 13px;
+  font-weight: 400;
+  margin: 0 0 8px 0;
+  letter-spacing: 0.02em;
+}
+
+.info ol,
+.info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.info li {
+  display: flex;
+  gap: 6px;
+  padding: 1px 0;
+}
+
+.info em {
+  font-style: normal;
+  display: inline-block;
+  min-width: 18px;
+}
+
+/* ---------- Attribution ---------- */
+.attribution {
+  display: block;
+  text-align: center;
+  font-size: 11px;
+  color: #888;
+  padding: 12px 0 24px 0;
+}
+.attribution a {
+  color: #888;
+}
+.attribution a:hover {
+  color: #333;
+}
+
+/* ---------- Mobile ---------- */
+@media (max-width: 900px) {
+  .square-container {
+    grid-template-columns: repeat(15, 28px);
+    grid-auto-rows: 28px;
+    padding: 0 12px;
+    margin-top: 16px;
+  }
+  .square-container > i {
+    font-size: 16px;
+  }
+  footer {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 0 16px;
+  }
+}

@@ -36,7 +36,7 @@ a {
   text-decoration: none;
 }
 
-/* ---------- Minimap (top progress indicator) ---------- */
+/* ---------- Minimap ---------- */
 .minimap {
   position: fixed;
   top: 28px;
@@ -66,7 +66,7 @@ a {
   border-radius: 1px;
 }
 
-/* ---------- Viewport (fixed window that crops the frame row) ---------- */
+/* ---------- Viewport ---------- */
 .viewport {
   position: fixed;
   top: 50%;
@@ -113,16 +113,8 @@ a {
   top: 50%;
   left: 50%;
 }
-.crosshair::before {
-  width: 1px;
-  height: 14px;
-  transform: translate(-50%, -50%);
-}
-.crosshair::after {
-  height: 1px;
-  width: 14px;
-  transform: translate(-50%, -50%);
-}
+.crosshair::before { width: 1px; height: 14px; transform: translate(-50%, -50%); }
+.crosshair::after  { height: 1px; width: 14px; transform: translate(-50%, -50%); }
 
 .card {
   width: var(--viewport-w);
@@ -136,10 +128,8 @@ a {
   display: flex;
 }
 
-/* ---------- Bio card ---------- */
-.card--bio {
-  align-items: center;
-}
+/* ---------- Bio ---------- */
+.card--bio { align-items: center; }
 .bio {
   position: relative;
   z-index: 2;
@@ -149,12 +139,8 @@ a {
   line-height: 1.12;
   letter-spacing: -0.025em;
 }
-.bio span {
-  display: block;
-}
-.bio .bio-indent {
-  padding-left: 0.6em;
-}
+.bio span { display: block; }
+.bio .bio-indent { padding-left: 0.6em; }
 .bio-ornament {
   position: absolute;
   top: 50%;
@@ -167,7 +153,7 @@ a {
   z-index: 1;
 }
 
-/* ---------- Manifesto card ---------- */
+/* ---------- Manifesto ---------- */
 .card--manifesto {
   background: var(--yellow);
   align-items: center;
@@ -179,7 +165,7 @@ a {
   color: rgba(0, 0, 0, 0.55);
 }
 
-/* ---------- Projects header card ---------- */
+/* ---------- Projects header ---------- */
 .card--projects-header {
   background: transparent;
   align-items: flex-start;
@@ -193,22 +179,242 @@ a {
   color: var(--text-muted);
 }
 
-/* ---------- Project cards ---------- */
-.card--project {
-  align-items: center;
-  justify-content: flex-start;
-  padding: 56px 0 56px 56px;
-  cursor: pointer;
+/* ========== Study cards (generic shell) ========== */
+.card--study {
+  padding: 0;
+  background: #fff;
+  overflow: hidden;
+  align-items: stretch;
+  justify-content: stretch;
 }
-.project-name {
-  font-size: clamp(120px, 18vw, 260px);
-  font-weight: 700;
-  line-height: 1;
-  letter-spacing: -0.04em;
+.study-stage {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.study-attribution {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 10px;
+  color: var(--text-muted);
   white-space: nowrap;
+  z-index: 5;
+}
+.study-attribution a { color: var(--text-muted); text-decoration: underline; }
+
+/* ========== Study 1: kimdot.de ========== */
+.study-stage--kimdot {
+  background: rgb(211, 211, 211);
+  display: grid;
+  place-items: center;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 24px 0 28px 0;
 }
 
-/* ---------- Contact card ---------- */
+.study-stage--kimdot .paper {
+  /* Original kimdot paper: A4 aspect, 640px wide at 1280 viewport.
+     Here the paper is sized to fit the study stage. */
+  width: min(92%, calc((100cqh - 80px) / 1.4142));
+  container-type: inline-size;
+  aspect-ratio: 1 / 1.4142;
+  padding: 2rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  font-size: clamp(10px, 1.35cqi, 16px);
+  background: transparent;
+}
+
+@supports not (container-type: inline-size) {
+  .study-stage--kimdot .paper {
+    width: min(92%, calc((78vh - 80px) / 1.4142));
+    font-size: clamp(10px, 1.2vw, 14px);
+  }
+}
+
+.study-stage--kimdot .paper-top {
+  background: #fff;
+  min-height: 60%;
+  border-bottom: 2px dotted #000;
+  padding: 2em;
+  box-sizing: border-box;
+  flex: 0 0 auto;
+}
+.study-stage--kimdot .kimdot-bio {
+  line-height: 1.35;
+  margin-bottom: 1em;
+  color: #000;
+}
+.study-stage--kimdot .kimdot-bio a { color: rgb(0, 0, 238); text-decoration: underline; }
+
+.study-stage--kimdot .kontakt { cursor: pointer; }
+.study-stage--kimdot .kontakt summary {
+  list-style: revert;
+  cursor: pointer;
+  color: #000;
+}
+.study-stage--kimdot .kontakt address {
+  font-style: normal;
+  padding: 0.4em 0 0 1em;
+  line-height: 1.5;
+}
+.study-stage--kimdot .kontakt a { color: rgb(0, 0, 238); text-decoration: underline; }
+
+.study-stage--kimdot .paper-bottom {
+  display: flex;
+  flex: 1 1 auto;
+  min-height: 40%;
+  background: #fff;
+}
+.study-stage--kimdot .abriss {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-inline: 0.5px solid #000;
+  background: #fff;
+  cursor: pointer;
+  overflow: visible;
+  will-change: transform;
+}
+.study-stage--kimdot .abriss-content {
+  transform: rotate(90deg);
+  display: inline-block;
+  white-space: nowrap;
+  color: rgb(0, 0, 238);
+  text-decoration: underline;
+  pointer-events: none;
+}
+
+/* Falling animation — exact @keyframes from kimdot.de */
+.study-stage--kimdot .abriss.falling {
+  animation: kimdot-falling 2s ease 0s 1 normal forwards;
+  z-index: 2;
+}
+@keyframes kimdot-falling {
+  0%   { transform: translate3d(0, 0, 0) rotate(-1.67654deg); }
+  100% { transform: translate3d(-100px, 640px, 0) rotate(-5.26652deg); }
+}
+
+/* ========== Study 2: sa-m.fr ========== */
+.study-stage--sam {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 24px 32px 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  color: #000;
+  container-type: inline-size;
+}
+
+.sam-grid {
+  --cell: min(8.5cqw, 7cqh);
+  display: grid;
+  grid-template-columns: repeat(15, var(--cell));
+  grid-auto-rows: var(--cell);
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.sam-grid .cell {
+  width: var(--cell);
+  height: var(--cell);
+  border: 1px solid #000;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sam-grid .cell > i {
+  font-style: normal;
+  font-size: calc(var(--cell) * 0.55);
+  line-height: 1;
+  font-weight: 100;
+}
+.sam-grid .cell > b {
+  position: absolute;
+  top: 3px;
+  left: 5px;
+  font-size: calc(var(--cell) * 0.16);
+  font-weight: 400;
+  color: #000;
+}
+
+.sam-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 32px;
+  padding: 0 12px;
+  font-size: 13px;
+  line-height: 1.55;
+  font-weight: 100;
+  color: #000;
+}
+.sam-footer h3 {
+  font-size: 13px;
+  font-weight: 400;
+  margin: 0 0 6px 0;
+  letter-spacing: 0.02em;
+}
+.sam-footer ol,
+.sam-footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sam-footer li {
+  display: flex;
+  gap: 4px;
+  padding: 1px 0;
+  color: #888;
+}
+.sam-footer em {
+  font-style: normal;
+  display: inline-block;
+  min-width: 22px;
+  color: #888;
+}
+
+.sam-contact li { color: #000; }
+.sam-contact em { color: #000; }
+.sam-contact a {
+  color: rgb(0, 128, 0);
+  text-decoration: underline;
+}
+
+/* ========== Study 3: endless.horse ========== */
+.study-stage--horse {
+  background: #fff;
+  overflow-y: auto;
+  overflow-x: hidden;
+  font-family: monospace, 'Courier New', Courier;
+  padding: 40px 0 60px 0;
+  scroll-behavior: auto;
+}
+.study-stage--horse::-webkit-scrollbar { width: 0; display: none; }
+.study-stage--horse { scrollbar-width: none; }
+
+.study-stage--horse pre {
+  font-family: monospace;
+  font-size: 13px;
+  line-height: normal;
+  margin: 0 auto;
+  color: #000;
+  width: 380px;
+  white-space: pre;
+  tab-size: 8;
+}
+.horse-head { margin-bottom: 0; }
+.horse-legs { margin: 0 auto; }
+.horse-sentinel { height: 1px; width: 100%; }
+
+/* ---------- Contact ---------- */
 .card--contact {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -224,41 +430,11 @@ a {
   width: 4px;
   background: var(--yellow);
 }
-.contact__top-left {
-  grid-column: 1;
-  grid-row: 1;
-  align-self: start;
-  justify-self: start;
-  font-size: 15px;
-}
-.contact__center {
-  grid-column: 1 / 3;
-  grid-row: 1 / 3;
-  align-self: center;
-  justify-self: center;
-  font-size: clamp(48px, 6vw, 88px);
-  font-weight: 700;
-  letter-spacing: -0.03em;
-}
-.contact__bottom-left {
-  grid-column: 1;
-  grid-row: 2;
-  align-self: end;
-  justify-self: start;
-  font-size: 15px;
-  color: var(--text-muted);
-}
-.contact__bottom-right {
-  grid-column: 2;
-  grid-row: 2;
-  align-self: end;
-  justify-self: end;
-  font-size: 15px;
-}
-.card--contact a:hover {
-  text-decoration: underline;
-  text-underline-offset: 4px;
-}
+.contact__top-left    { grid-column: 1; grid-row: 1; align-self: start;  justify-self: start;  font-size: 15px; }
+.contact__center      { grid-column: 1 / 3; grid-row: 1 / 3; align-self: center; justify-self: center; font-size: clamp(48px, 6vw, 88px); font-weight: 700; letter-spacing: -0.03em; }
+.contact__bottom-left { grid-column: 1; grid-row: 2; align-self: end; justify-self: start; font-size: 15px; color: var(--text-muted); }
+.contact__bottom-right{ grid-column: 2; grid-row: 2; align-self: end; justify-self: end;   font-size: 15px; }
+.card--contact a:hover { text-decoration: underline; text-underline-offset: 4px; }
 
 /* ---------- Footer attribution ---------- */
 .attribution {
@@ -269,16 +445,9 @@ a {
   text-align: center;
   z-index: 20;
 }
-.attribution small {
-  font-size: 11px;
-  color: var(--text-muted);
-}
-.attribution a {
-  color: var(--text-muted);
-}
-.attribution a:hover {
-  color: var(--text);
-}
+.attribution small { font-size: 11px; color: var(--text-muted); }
+.attribution a { color: var(--text-muted); }
+.attribution a:hover { color: var(--text); }
 
 /* ---------- Mobile ---------- */
 @media (max-width: 640px) {
@@ -288,11 +457,17 @@ a {
     --card-gap: 16px;
   }
   .card { padding: 24px; }
-  .card--project { padding: 24px 0 24px 24px; }
   .card--contact { padding: 24px 24px 24px 36px; }
   .minimap { top: 20px; }
+  .card--study { padding: 0; }
+  .sam-footer {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    font-size: 11px;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
   .minimap__ticks .tick { transition: none; }
+  .study-stage--kimdot .abriss.falling { animation-duration: 0.01ms; }
 }

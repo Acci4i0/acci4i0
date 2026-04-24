@@ -18,17 +18,16 @@
 
 html {
   background: var(--bg);
-  height: 100%;
-  overflow: hidden;
 }
 
 body {
   font-family: var(--font-sans);
   color: var(--text);
   background: var(--bg);
-  height: 100%;
-  overflow: hidden;
   -webkit-font-smoothing: antialiased;
+  /* Body height is set in script.js to (MAX_SCROLL + viewport-h) so the
+     page has real native vertical scroll; the fixed .viewport renders the
+     carousel on top of it. */
 }
 
 a {

@@ -1,0 +1,56 @@
+{
+  "sourceUrl": "https://rauno.me",
+  "referenceCard": "History of Software Design",
+  "extractedAt": "2026-04-26",
+  "viewport": { "width": 1280, "height": 800 },
+  "foundAtScrollY": 2250,
+  "notesOnRaunoLayout": [
+    "rauno.me renders each card at 1200x720 source-size, then applies a parent transform that scales it to ~720x432 visible size (~0.6 ratio). The label uses an inverse 1.667x transform so its computed font-size (14px) renders at ~14*0.6*1.667 = 14px on screen.",
+    "The label sits ABOVE the card (top: -46.6667px in source-space, which is about -28px in screen-space), NOT inside it.",
+    "The card body itself contains only the pixelated hand cursor centered, on a pure white background. No giant typography, no border-radius, no shadow, no padding.",
+    "Adjacent cards on rauno.me each have similar covers - they vary only in label text and (for some) in centered display elements. The History of Software Design card is the minimal variant: white + cursor only."
+  ],
+  "card": {
+    "background": "#ffffff (rgb(255,255,255))",
+    "backgroundImage": "none",
+    "borderRadius": "0px",
+    "boxShadow": "none",
+    "padding": "0px",
+    "overflow": "visible",
+    "rect_at_extraction": { "x": 262, "y": 184, "w": 720, "h": 432 },
+    "sourceSize": { "w": 1200, "h": 720 },
+    "scaleRatio": 0.6,
+    "interiorContent": "single centered pixelated hand cursor (svg/img). nothing else visible."
+  },
+  "label": {
+    "text": "History of Software Design",
+    "position": "absolute, top:-46.67px, left:0 - sits ABOVE the card edge in the grey background gap",
+    "fontFamily": "X, -apple-system, system-ui, Segoe UI, Roboto, ... sans-serif",
+    "fontSize": "14px (source) - effective ~14px on screen after combined transforms",
+    "fontWeight": "400",
+    "color": "rgb(111, 111, 111)",
+    "letterSpacing": "normal",
+    "lineHeight": "normal",
+    "textTransform": "none",
+    "transform_in_source": "matrix(1.66667, 0, 0, 1.66667, 0, 0)"
+  },
+  "ourMappingNotes": [
+    "Our cards are 998px wide @ 78vw, not 1200px. We do NOT have the 1200->720 down-scaling pipeline.",
+    "Visually anchor the label at top:~-28px from card top so it sits in the gap above the card (matches rauno).",
+    "Use color #6f6f6f (= rgb(111,111,111)) to match the rauno label colour exactly.",
+    "Keep our label text 'Projects' (do NOT copy 'History of Software Design').",
+    "Keep our existing pixelated cursor SVG - it is already faithful to rauno's."
+  ],
+  "decisionsForApply": {
+    "background": "#ffffff",
+    "borderRadius": "var(--card-radius) (6px) - keep ours; rauno doesn't round but our system does on every card so we keep consistency",
+    "boxShadow": "none",
+    "padding": "0 (move padding logic onto inner positioned elements)",
+    "labelPosition": "absolute, top: -28px, left: 0 (sits in the 32px gap above the card)",
+    "labelColor": "#6f6f6f",
+    "labelFontSize": "14px",
+    "labelFontWeight": "400",
+    "labelText": "Projects",
+    "cursorPosition": "absolute, centered (top:50%, left:50%, translate(-50%,-50%))"
+  }
+}

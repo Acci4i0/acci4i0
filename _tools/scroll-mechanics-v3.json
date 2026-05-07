@@ -1,0 +1,127 @@
+{
+  "mechanism": {
+    "log": [
+      {
+        "probe": "deltaY+200",
+        "scrollY": 0,
+        "scrollX": 0
+      },
+      {
+        "probe": "deltaX+200",
+        "scrollY": 0,
+        "scrollX": 0
+      },
+      {
+        "probe": "scrollBy 800",
+        "scrollY": 800,
+        "scrollX": 0,
+        "transformsAfter": [
+          {
+            "tag": "div",
+            "classes": "index_center__dvDjE scrollable-content",
+            "rect": {
+              "w": 1200,
+              "h": 720
+            },
+            "transform": "matrix(1, 0, 0, 1, -600, -360)"
+          },
+          {
+            "tag": "div",
+            "classes": "index_frames__d9hw4",
+            "rect": {
+              "w": 857,
+              "h": 514
+            },
+            "transform": "matrix(0.714157, 0, 0, 0.714157, -800, 0)"
+          },
+          {
+            "tag": "div",
+            "classes": "index_contents__YVkKY",
+            "rect": {
+              "w": 857,
+              "h": 514
+            },
+            "transform": "matrix(1, 0, 0, 1, -371.376, 0)"
+          },
+          {
+            "tag": "p",
+            "classes": "",
+            "rect": {
+              "w": 192,
+              "h": 73
+            },
+            "transform": "matrix(1, 0, 0, 1, 0, 90)"
+          }
+        ]
+      }
+    ],
+    "tBefore": [
+      {
+        "tag": "div",
+        "classes": "index_center__dvDjE scrollable-content",
+        "rect": {
+          "w": 1200,
+          "h": 720
+        },
+        "transform": "matrix(1, 0, 0, 1, -600, -360)"
+      },
+      {
+        "tag": "div",
+        "classes": "index_frames__d9hw4",
+        "rect": {
+          "w": 941,
+          "h": 565
+        },
+        "transform": "matrix(0.784314, 0, 0, 0.784314, 0, 0)"
+      },
+      {
+        "tag": "p",
+        "classes": "",
+        "rect": {
+          "w": 211,
+          "h": 80
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 90)"
+      }
+    ],
+    "tAfter": [
+      {
+        "tag": "div",
+        "classes": "index_center__dvDjE scrollable-content",
+        "rect": {
+          "w": 1200,
+          "h": 720
+        },
+        "transform": "matrix(1, 0, 0, 1, -600, -360)"
+      },
+      {
+        "tag": "div",
+        "classes": "index_frames__d9hw4",
+        "rect": {
+          "w": 941,
+          "h": 565
+        },
+        "transform": "matrix(0.784314, 0, 0, 0.784314, 0, 0)"
+      },
+      {
+        "tag": "p",
+        "classes": "",
+        "rect": {
+          "w": 211,
+          "h": 80
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 90)"
+      }
+    ],
+    "overflowable": [],
+    "htmlOverflow": "visible",
+    "bodyOverflow": "hidden auto",
+    "documentHeight": 5264,
+    "documentWidth": 5744
+  },
+  "trustedWheel": {
+    "beforeY": 0,
+    "afterDeltaX_via_horizontalWheel": 0,
+    "afterDeltaY_via_verticalWheel": 200
+  }
+}

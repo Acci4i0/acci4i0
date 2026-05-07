@@ -84,6 +84,18 @@
 
   window.addEventListener('scroll', onScroll, { passive: true });
   window.addEventListener('resize', () => { setBodyHeight(); render(); });
+
+  // Translate horizontal trackpad swipes (deltaX) into vertical scroll, so
+  // left/right gestures advance the carousel — which matches the visual
+  // flow (cards arranged horizontally, top progress bar pointing left/right).
+  // Vertical wheel events fall through to native scroll, preserving inertia.
+  window.addEventListener('wheel', (e) => {
+    if (Math.abs(e.deltaX) > Math.abs(e.deltaY) && e.deltaX !== 0) {
+      e.preventDefault();
+      window.scrollBy(0, e.deltaX);
+    }
+  }, { passive: false });
+
   // Initial render (so the active tick is set before any scroll happens).
   requestAnimationFrame(render);
 })();

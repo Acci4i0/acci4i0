@@ -64,12 +64,24 @@
   let currentScale = 1;
   let trackerActive = false;
 
+  // "Slide" frames (giant nowrap text) get a horizontal parallax: their
+  // contents drift against the scroll so different portions are revealed.
+  const PARALLAX = 280;
+  const slideContents = cards.map((card) =>
+    card.dataset.variant === 'slide' ? card.querySelector('.contents--slide') : null
+  );
+
   function render() {
     rafPending = false;
     const scrollY = Math.max(0, Math.min(MAX_SCROLL, window.scrollY));
     const progress = MAX_SCROLL > 0 ? scrollY / MAX_SCROLL : 0;
     const exactIdx = progress * (N - 1);
     frames.style.transform = `translate3d(${-exactIdx * FRAME_STRIDE}px, 0, 0)`;
+
+    for (let i = 0; i < N; i++) {
+      if (!slideContents[i]) continue;
+      slideContents[i].style.transform = `translate3d(${(i - exactIdx) * PARALLAX}px, 0, 0)`;
+    }
 
     const idle = performance.now() - lastScrollTs > IDLE_MS;
     const targetScale = idle ? 1 : PREVIEW_SCALE;

@@ -13,7 +13,7 @@
       <div class="scaler">
         <div class="frames">
 
-          <!-- 1. Bio (rauno: main frame) -->
+          <!-- 1. Bio (main frame) -->
           <div class="frame" data-variant="main" data-card="bio">
             <div class="main-container">
               <section class="sheet sheet--bio">
@@ -31,51 +31,99 @@
             </div>
           </div>
 
-          <!-- 2. Projects (rauno: "History of Software Design" treatment) -->
-          <a class="frame" data-variant="default" data-card="projects" href="./projects/" aria-label="Projects">
-            <div class="label" aria-hidden="true">Projects</div>
-            <div class="sheet sheet--projects">
-              <svg class="projects-cursor" viewBox="0 0 13 16" shape-rendering="crispEdges" aria-hidden="true">
-                <!-- Pixelated hand pointer (white fill, blue outline) -->
-                <g fill="#ffffff">
-                  <rect x="4" y="1" width="1" height="4"/>
-                  <rect x="4" y="5" width="1" height="6"/>
-                  <rect x="5" y="5" width="1" height="6"/>
-                  <rect x="6" y="6" width="1" height="5"/>
-                  <rect x="7" y="6" width="1" height="5"/>
-                  <rect x="8" y="7" width="1" height="4"/>
-                  <rect x="9" y="7" width="1" height="4"/>
-                  <rect x="2" y="7" width="2" height="4"/>
-                  <rect x="1" y="8" width="1" height="3"/>
-                </g>
-                <g fill="#0044ff">
-                  <rect x="3" y="0" width="2" height="1"/>
-                  <rect x="3" y="1" width="1" height="4"/>
-                  <rect x="5" y="1" width="1" height="4"/>
-                  <rect x="5" y="5" width="1" height="1"/>
-                  <rect x="6" y="5" width="1" height="1"/>
-                  <rect x="7" y="5" width="1" height="1"/>
-                  <rect x="8" y="6" width="1" height="1"/>
-                  <rect x="9" y="6" width="1" height="1"/>
-                  <rect x="10" y="7" width="1" height="5"/>
-                  <rect x="1" y="7" width="1" height="1"/>
-                  <rect x="2" y="6" width="1" height="1"/>
-                  <rect x="0" y="8" width="1" height="3"/>
-                  <rect x="1" y="11" width="1" height="1"/>
-                  <rect x="2" y="11" width="1" height="1"/>
-                  <rect x="3" y="11" width="1" height="1"/>
-                  <rect x="3" y="12" width="7" height="1"/>
+          <!-- 2. Devouring Details -->
+          <a class="frame" data-variant="slide" data-card="dd" href="https://www.devouringdetails.com" target="_blank" rel="noopener noreferrer" aria-label="Devouring Details">
+            <div class="label" aria-hidden="true">Devouring Details</div>
+            <div class="sheet">
+              <div class="contents contents--slide">
+                <h3 aria-hidden="true">DD</h3>
+                <div class="circle--orange" aria-hidden="true"></div>
+              </div>
+            </div>
+          </a>
+
+          <!-- 3. Craft -->
+          <a class="frame" data-variant="slide" data-card="craft" href="https://rauno.me/craft" target="_blank" rel="noopener noreferrer" aria-label="Craft">
+            <div class="label" aria-hidden="true">Craft</div>
+            <div class="sheet">
+              <div class="contents contents--slide">
+                <h3 aria-hidden="true">Craft</h3>
+              </div>
+            </div>
+          </a>
+
+          <!-- 4. History of Software Design.
+               Original stand-in artwork: the OG blue glyph is Rauno's own
+               drawing, so this is a new composition in the same idiom. -->
+          <a class="frame" data-variant="default" data-card="history" href="https://historyofsoftware.org" target="_blank" rel="noopener noreferrer" aria-label="History of Software Design">
+            <div class="label" aria-hidden="true">History of Software Design</div>
+            <div class="sheet sheet--centered">
+              <svg class="history-art" data-icon="history" viewBox="0 0 440 480" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <g fill="#0000FF">
+                  <rect x="20"  y="300" width="14" height="160"/>
+                  <rect x="60"  y="240" width="14" height="220"/>
+                  <rect x="100" y="180" width="14" height="280"/>
+                  <rect x="140" y="120" width="14" height="340"/>
+                  <rect x="180" y="60"  width="14" height="400"/>
+                  <rect x="220" y="20"  width="14" height="440"/>
+                  <rect x="260" y="60"  width="14" height="400"/>
+                  <rect x="300" y="140" width="14" height="320"/>
+                  <rect x="340" y="220" width="14" height="240"/>
+                  <rect x="380" y="320" width="14" height="140"/>
+                  <rect x="60"  y="500" width="0"  height="0"/>
+                  <rect x="100" y="80"  width="14" height="14"/>
+                  <rect x="300" y="40"  width="14" height="14"/>
+                  <rect x="380" y="240" width="14" height="14"/>
+                  <rect x="20"  y="220" width="14" height="14"/>
                 </g>
               </svg>
             </div>
           </a>
 
-          <!-- 3. Contact (rauno: contact frame) -->
+          <!-- 5. Projects -->
+          <a class="frame" data-variant="slide" data-card="projects" href="./projects/" aria-label="Projects">
+            <div class="label" aria-hidden="true">Projects</div>
+            <div class="sheet">
+              <div class="contents contents--slide">
+                <h3 aria-hidden="true">Projects</h3>
+              </div>
+            </div>
+          </a>
+
+          <!-- 6. Field Notes.
+               Original stand-in scribbles (same idiom as the OG hand-drawn
+               red strokes, redrawn from scratch). -->
+          <a class="frame" data-variant="default" data-card="notes" href="https://rauno.me/notes/1" target="_blank" rel="noopener noreferrer" aria-label="Field Notes">
+            <div class="label" aria-hidden="true">Field Notes</div>
+            <div class="sheet sheet--centered sheet--notes">
+              <svg viewBox="0 0 672 74" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <g stroke="var(--red)" stroke-width="7" stroke-linecap="round" fill="none">
+                  <path d="M14 56 C 8 40, 16 18, 30 14 C 44 10, 50 24, 40 34 C 30 44, 18 48, 26 58"/>
+                  <path d="M70 52 C 64 36, 76 22, 90 26 C 104 30, 100 52, 86 54 C 76 56, 70 48, 74 40"/>
+                  <path d="M124 18 C 122 32, 120 46, 122 60"/>
+                  <path d="M112 34 C 122 32, 132 30, 142 30"/>
+                  <path d="M168 28 C 158 30, 152 44, 160 52 C 168 60, 182 54, 180 42 C 178 32, 170 28, 162 32"/>
+                  <path d="M214 14 C 210 30, 208 46, 210 60 C 216 50, 222 40, 228 42 C 234 44, 236 54, 240 60"/>
+                  <path d="M278 24 C 270 24, 262 32, 264 42 C 266 52, 278 56, 286 50 C 294 44, 292 30, 282 26"/>
+                  <path d="M330 20 L 326 58 C 334 48, 344 46, 350 52"/>
+                  <path d="M392 26 C 380 28, 374 40, 380 50 C 386 60, 400 56, 404 46"/>
+                  <path d="M444 22 C 440 36, 438 48, 440 58 M 442 12 L 442 13"/>
+                  <path d="M484 30 C 492 28, 500 30, 502 38 C 504 46, 496 54, 486 56"/>
+                  <path d="M540 16 C 548 30, 556 44, 566 56 C 568 42, 570 28, 574 16"/>
+                  <path d="M608 36 C 618 34, 628 32, 640 30 M 612 50 C 622 48, 632 46, 644 44"/>
+                </g>
+              </svg>
+            </div>
+          </a>
+
+          <!-- 7. Contact -->
           <div class="frame" data-variant="default" data-card="contact">
-            <div class="sheet sheet--contact">
+            <div class="sheet">
               <div class="contact">
                 <a href="https://www.linkedin.com/in/andrea-lando-2a51833b3" data-position="top-left" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                <span data-position="top-right">2026</span>
+                <!-- TODO: set the real Instagram handle -->
+                <a href="https://www.instagram.com/" data-position="top-right" target="_blank" rel="noopener noreferrer">Instagram</a>
+                <span data-position="bottom-left">2026</span>
                 <a href="https://github.com/Acci4i0" data-position="bottom-right" target="_blank" rel="noopener noreferrer">GitHub</a>
                 <button class="email-button" aria-label="Copy email">
                   <div class="email" aria-hidden="true">
@@ -88,7 +136,7 @@
             </div>
           </div>
 
-          <!-- 4. Manifesto (rauno: yellow card) -->
+          <!-- 8. Manifesto -->
           <div class="frame" data-variant="default" data-card="manifesto">
             <div class="sheet sheet--manifesto">
               <div class="manifesto-contents">
@@ -117,7 +165,7 @@
   </div>
 
   <footer class="attribution">
-    <small>After rauno.me by Rauno Freiberg &mdash; rebuild study <a href="https://rauno.me" target="_blank" rel="noopener">&#x2197;</a></small>
+    <small>1:1 rebuild study of rauno.me &mdash; original by Rauno Freiberg <a href="https://rauno.me" target="_blank" rel="noopener">&#x2197;</a></small>
   </footer>
 
   <script src="script.js"></script>

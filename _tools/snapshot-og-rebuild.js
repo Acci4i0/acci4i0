@@ -40,15 +40,15 @@ async function main() {
   await page.screenshot({ path: path.join(OUT, 'og-02-midscroll.png') });
 
   // Each card position (406px per transition).
-  const names = ['bio', 'projects', 'contact', 'manifesto'];
-  for (let i = 1; i < 4; i++) {
+  const names = ['bio', 'dd', 'craft', 'history', 'projects', 'notes', 'contact', 'manifesto'];
+  for (let i = 1; i < names.length; i++) {
     await page.evaluate((y) => window.scrollTo(0, y), i * 406);
     await page.waitForTimeout(900); // settle back to scale 1
-    await page.screenshot({ path: path.join(OUT, `og-0${i + 2}-${names[i]}.png`) });
+    await page.screenshot({ path: path.join(OUT, `og-1${i}-${names[i]}.png`) });
   }
 
   // Email copy state.
-  await page.evaluate(() => window.scrollTo(0, 2 * 406));
+  await page.evaluate(() => window.scrollTo(0, 6 * 406));
   await page.waitForTimeout(600);
   // Click off-center: the crosshair owns the exact viewport center (as OG).
   await page.click('.email-button', { position: { x: 10, y: 10 } });

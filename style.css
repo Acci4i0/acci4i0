@@ -5,6 +5,7 @@
 :root {
   --yellow: #FFFF02;
   --orange: #FF6100;
+  --red: #FF484C;
   --gray4: hsl(0 0% 93.0%);   /* root background */
   --gray9: hsl(0 0% 56.1%);   /* minimap lines */
   --gray11: hsl(0 0% 43.5%);  /* frame labels */
@@ -131,6 +132,14 @@ button {
 
 .frame a, .frame p { font-size: 85px; font-weight: 400; }
 .frame p[data-size="medium"] { font-size: 75px; }
+.frame h3 {
+  font-size: 720px;
+  font-weight: 400;
+  white-space: nowrap;
+  color: var(--gray12);
+  -webkit-user-select: none;
+  user-select: none;
+}
 
 .label {
   font-size: 14px;
@@ -145,7 +154,22 @@ button {
   width: 100%;
   height: 100%;
   background: white;
-  overflow-x: clip;
+  overflow: clip;
+}
+
+.contents {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.contents--slide { will-change: transform; }
+
+.circle--orange {
+  background: var(--orange);
+  height: 100%;
+  border-radius: 9999px;
+  aspect-ratio: 1 / 1;
+  flex-shrink: 0;
 }
 
 .main-container {
@@ -196,18 +220,18 @@ button {
 .clip-reveal:nth-child(6) span { animation-delay: .65s; }
 @keyframes clip-rise { to { transform: translateY(0); } }
 
-/* ---------- 2. Projects (History-of-Software cover treatment) ---------- */
-.sheet--projects {
+/* ---------- Centered-artwork frames (History, Field Notes) ---------- */
+.sheet--centered {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.projects-cursor {
+.history-art {
   flex-shrink: 0;
   height: 50%;
   width: auto;
-  image-rendering: pixelated;
 }
+.sheet--notes svg { scale: 1.2; }
 
 /* ---------- 3. Contact ---------- */
 .contact {
@@ -335,19 +359,21 @@ main[data-debug="true"] .circle {
   background: transparent;
   border: 1px solid #000;
 }
+main[data-debug="true"] .circle--orange {
+  background: transparent;
+  border: 1px solid #000;
+}
 main[data-debug="true"] .bio p,
 main[data-debug="true"] .contact a,
 main[data-debug="true"] .contact span,
 main[data-debug="true"] .email p,
-main[data-debug="true"] .manifesto-contents p {
+main[data-debug="true"] .manifesto-contents p,
+main[data-debug="true"] .frame h3 {
   color: transparent;
   -webkit-text-stroke: 1px #000;
 }
-main[data-debug="true"] .projects-cursor rect {
-  fill: transparent;
-  stroke: #000;
-  stroke-width: 0.12; /* viewBox is 13x16 user units */
-}
+main[data-debug="true"] .history-art rect { fill: #000; }
+main[data-debug="true"] .sheet--notes path { stroke: #000; stroke-width: 1; }
 
 /* ---------- Touch (rauno: native horizontal pan) ---------- */
 @media (pointer: coarse) {

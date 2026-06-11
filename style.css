@@ -1,84 +1,105 @@
+/* Acci4i0 home — faithful rebuild of rauno.me's index page.
+   Tokens, metrics and animation timings extracted from the live site's
+   compiled CSS (Stitches theme + index/minimap CSS modules). */
+
 :root {
-  --yellow: #ffff02;
-  --bg: #e8e8e8;
-  --text: #111;
-  --text-muted: #888;
-  --card-gap: 32px;
-  --viewport-w: min(1100px, 78vw);
-  --viewport-h: min(720px, 78vh);
-  --card-radius: 6px;
-  --font-sans: 'Inter', -apple-system, system-ui, 'Segoe UI', Roboto, sans-serif;
+  --yellow: #FFFF02;
+  --orange: #FF6100;
+  --gray4: hsl(0 0% 93.0%);   /* root background */
+  --gray9: hsl(0 0% 56.1%);   /* minimap lines */
+  --gray11: hsl(0 0% 43.5%);  /* frame labels */
+  --gray12: hsl(0 0% 9.0%);   /* body text */
+  --snappy: cubic-bezier(.2, .8, .2, 1);
+
+  --frame-width: 1200px;
+  --frame-height: 720px;
+  --frame-gap: 40px;
+
+  --font-body: X, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+}
+
+@supports (color: color(display-p3 1 1 1)) {
+  :root {
+    --orange: color(display-p3 .99 .4 .02);
+  }
+}
+
+/* rauno.me serves its custom face ("X" / dd.woff2) with ACAO:*, so it can
+   be hotlinked cross-origin. Fallback stack covers a failed fetch. */
+@font-face {
+  font-family: X;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://rauno.me/dd.woff2) format("woff2");
+}
+@font-face {
+  font-family: X;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://rauno.me/dd.woff2) format("woff2");
 }
 
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 html {
-  background: var(--bg);
+  background: var(--gray4);
+  scrollbar-width: none;
 }
+html::-webkit-scrollbar { display: none; }
 
 body {
-  font-family: var(--font-sans);
-  color: var(--text);
-  background: var(--bg);
-  -webkit-font-smoothing: antialiased;
+  font-family: var(--font-body);
+  color: var(--gray12);
+  background: var(--gray4);
+  overscroll-behavior: none;
+  touch-action: pan-x pan-y;
   /* Body height is set in script.js to (MAX_SCROLL + viewport-h) so the
-     page has real native vertical scroll; the fixed .viewport renders the
+     page has real native vertical scroll; the fixed .center renders the
      carousel on top of it. */
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+::selection { background: var(--yellow); color: black; }
 
-/* ---------- Minimap ---------- */
-.minimap {
-  position: fixed;
-  top: 28px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 20;
-  pointer-events: none;
-}
-.minimap__ticks {
-  display: flex;
-  align-items: center;
-  gap: 9px;
-  height: 18px;
-}
-.minimap__ticks .tick {
-  display: inline-block;
-  width: 1px;
-  height: 12px;
-  background: var(--text);
-  transition: width 220ms ease, height 220ms ease, background 220ms ease;
-}
-.minimap__ticks .tick.active {
-  width: 22px;
-  height: 16px;
+h1, h2, h3 { font-weight: 500; }
+em, i { font-family: Georgia, serif; }
+a { color: inherit; text-decoration: none; cursor: pointer; }
+button {
+  padding: 0;
   background: transparent;
-  border: 1px solid var(--text);
-  border-radius: 1px;
+  font-family: var(--font-body);
+  color: inherit;
+  border: 0;
 }
 
-/* ---------- Viewport ---------- */
-.viewport {
+.vh {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  white-space: nowrap;
+  position: absolute;
+}
+
+/* ---------- Carousel ---------- */
+.center {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: var(--viewport-w);
-  height: var(--viewport-h);
-  overflow: hidden;
+  width: var(--frame-width);
+  height: var(--frame-height);
   z-index: 1;
-  border-radius: var(--card-radius);
 }
 
-.frames-scaler {
+.scaler {
   width: 100%;
   height: 100%;
   transform-origin: 50% 50%;
@@ -87,154 +108,210 @@ a {
 
 .frames {
   display: flex;
-  gap: var(--card-gap);
-  height: 100%;
+  gap: var(--frame-gap);
   width: max-content;
+  height: 100%;
   will-change: transform;
 }
 
-.crosshair {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  width: 14px;
-  height: 14px;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
-  z-index: 15;
-  color: var(--text);
-}
-.crosshair::before,
-.crosshair::after {
-  content: '';
-  position: absolute;
-  background: currentColor;
-  top: 50%;
-  left: 50%;
-}
-.crosshair::before { width: 1px; height: 14px; transform: translate(-50%, -50%); }
-.crosshair::after  { height: 1px; width: 14px; transform: translate(-50%, -50%); }
-
-.card {
-  width: var(--viewport-w);
-  height: 100%;
+.frame {
+  width: var(--frame-width);
+  height: var(--frame-height);
   flex-shrink: 0;
-  background: #fff;
-  border-radius: var(--card-radius);
-  padding: 56px;
   position: relative;
-  overflow: hidden;
-  display: flex;
+  outline: 0;
+  -webkit-user-select: none;
+  user-select: none;
 }
+.frame:not([data-variant="main"]) {
+  opacity: 0;
+  animation: fade-frames .35s ease-in-out .8s forwards;
+}
+@keyframes fade-frames { to { opacity: 1; } }
 
-/* ---------- Bio ---------- */
-.card--bio { align-items: center; }
-.bio {
-  position: relative;
-  z-index: 2;
-  max-width: 75%;
-  font-size: clamp(28px, 3.6vw, 50px);
+.frame a, .frame p { font-size: 85px; font-weight: 400; }
+.frame p[data-size="medium"] { font-size: 75px; }
+
+.label {
+  font-size: 14px;
   font-weight: 400;
-  line-height: 1.12;
-  letter-spacing: -0.025em;
-}
-.bio span { display: block; }
-.bio .bio-indent { padding-left: 0.6em; }
-.bio-ornament {
+  color: var(--gray11);
   position: absolute;
-  top: 50%;
-  right: -5%;
-  transform: translateY(-50%);
-  width: 58%;
-  aspect-ratio: 1;
-  border-radius: 50%;
-  background: var(--yellow);
-  z-index: 1;
+  top: -28px;
+  transform-origin: top left;
 }
 
-/* ---------- Manifesto ---------- */
-.card--manifesto {
+.sheet {
+  width: 100%;
+  height: 100%;
+  background: white;
+  overflow-x: clip;
+}
+
+.main-container {
+  width: 100%;
+  height: 100%;
+  animation: scale-in .8s var(--snappy) both;
+}
+@keyframes scale-in {
+  from { transform: scale(0); }
+  to { transform: scale(1); }
+}
+
+/* ---------- 1. Bio (main frame) ---------- */
+.sheet--bio {
+  padding: 64px;
+  display: flex;
+  align-items: center;
+  gap: 64px;
+  color: var(--gray12);
+}
+
+.circle {
   background: var(--yellow);
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-radius: 9999px;
+  aspect-ratio: 1 / 1;
+  animation: scale-in .7s var(--snappy) .25s both;
+}
+
+.bio { position: relative; }
+.bio p { line-height: 1.1; }
+
+.clip-reveal { overflow: hidden; }
+.clip-reveal span {
+  display: inline-block;
+  transform: translateY(100px);
+  animation: clip-rise .65s var(--snappy) forwards;
+}
+.clip-reveal[data-variant="offset"] { margin-left: 64px; }
+.clip-reveal:nth-child(1) span { animation-delay: .30s; }
+.clip-reveal:nth-child(2) span { animation-delay: .37s; }
+.clip-reveal:nth-child(3) span { animation-delay: .44s; }
+.clip-reveal:nth-child(4) span { animation-delay: .51s; }
+.clip-reveal:nth-child(5) span { animation-delay: .58s; }
+.clip-reveal:nth-child(6) span { animation-delay: .65s; }
+@keyframes clip-rise { to { transform: translateY(0); } }
+
+/* ---------- 2. Projects (History-of-Software cover treatment) ---------- */
+.sheet--projects {
+  display: flex;
   align-items: center;
   justify-content: center;
 }
-.manifesto-placeholder {
-  font-size: clamp(22px, 2.2vw, 32px);
-  font-style: italic;
-  color: rgba(0, 0, 0, 0.55);
-}
-
-/* ---------- Projects index ----------
-   1:1 of rauno.me's "History of Software Design" cover: a smaller white
-   body floating inside the slot with grey breathing room above and below,
-   and a tiny grey label hanging just above the body. The slot itself is
-   transparent so the page bg shows through above the label and below the
-   body, giving the same "card floating in grey" look as rauno. */
-.card--projects-index {
-  background: transparent;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: stretch;
-  padding: 0;
-  border-radius: 0;
-  overflow: visible;
-  text-decoration: none;
-  color: inherit;
-  cursor: pointer;
-}
-
-.projects-index__label {
-  flex: 0 0 auto;
-  margin: 0 0 24px 0;
-  font-size: 14px;
-  font-weight: 400;
-  color: #6f6f6f;
-  letter-spacing: normal;
-  line-height: 1;
-}
-
-.projects-index__body {
-  flex: 0 0 auto;
-  position: relative;
-  width: 100%;
-  height: 70%;
-  background: #fff;
-  border-radius: 0;
-  overflow: hidden;
-}
-
-.projects-index__cursor {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: min(260px, 36%);
-  height: auto;
+.projects-cursor {
+  flex-shrink: 0;
+  height: 50%;
+  width: auto;
   image-rendering: pixelated;
 }
 
-/* ---------- Contact ---------- */
-.card--contact {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  padding: 56px 56px 56px 72px;
+/* ---------- 3. Contact ---------- */
+.contact {
+  --padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
-.card--contact::before {
-  content: '';
+.contact a, .contact span, .contact button {
+  color: var(--gray12);
+  border-radius: 12px;
+  font-size: 85px;
+  font-weight: 400;
+}
+.contact [data-position="top-left"] { position: absolute; top: var(--padding); left: var(--padding); }
+.contact [data-position="top-right"] { position: absolute; top: var(--padding); right: var(--padding); }
+.contact [data-position="bottom-left"] { position: absolute; bottom: var(--padding); left: var(--padding); }
+.contact [data-position="bottom-right"] { position: absolute; bottom: var(--padding); right: var(--padding); }
+.contact a:focus-visible, .contact button:focus-visible {
+  outline: 2px solid var(--gray9);
+  outline-offset: 4px;
+}
+
+.email-button { cursor: copy; }
+.email {
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+.email > * {
+  grid-area: 1 / 1;
+  transition: transform .4s var(--snappy);
+}
+.email p:last-child { transform: translateY(110%); }
+.email-button.copied .email p:first-child { transform: translateY(-110%); }
+.email-button.copied .email p:last-child { transform: translateY(0); }
+
+/* ---------- 4. Manifesto ---------- */
+.sheet--manifesto { background: var(--yellow); }
+.manifesto-contents {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 50px;
+}
+.manifesto-contents p { line-height: 1.1; }
+
+/* ---------- Crosshair ---------- */
+.cross {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: difference;
+  cursor: pointer;
+  z-index: 15;
+}
+
+/* ---------- Minimap ---------- */
+.minimap {
+  position: fixed;
+  top: 64px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
+  opacity: 0;
+  animation: fade-frames .35s ease-in-out .8s forwards;
+}
+.minimap__inner {
+  display: flex;
+  align-items: flex-end;
+  gap: 9px;
+  position: relative;
+}
+.minimap__lines {
+  display: flex;
+  align-items: flex-end;
+  gap: 9px;
+}
+.minimap__lines .line {
+  width: 1px;
+  height: 18px;
+  background: var(--gray9);
+  transition: opacity 150ms ease-in-out;
+}
+.minimap__lines .line[data-fade="true"] { opacity: 0; }
+.minimap__tracker {
+  width: 30px;
+  height: 18px;
   position: absolute;
   left: 0;
   top: 0;
-  bottom: 0;
-  width: 4px;
-  background: var(--yellow);
+  background: transparent;
+  border: 1px solid var(--gray9);
+  transition: background 200ms ease-in-out, border-color 200ms ease-in-out;
+  will-change: transform;
 }
-.contact__top-left    { grid-column: 1; grid-row: 1; align-self: start; justify-self: start; font-size: 15px; }
-.contact__center      { grid-column: 1 / 3; grid-row: 1 / 3; align-self: center; justify-self: center; font-size: clamp(48px, 6vw, 88px); font-weight: 700; letter-spacing: -0.03em; }
-.contact__bottom-left { grid-column: 1; grid-row: 2; align-self: end; justify-self: start; font-size: 15px; color: var(--text-muted); }
-.contact__bottom-right{ grid-column: 2; grid-row: 2; align-self: end; justify-self: end; font-size: 15px; }
-.card--contact a:hover { text-decoration: underline; text-underline-offset: 4px; }
+.minimap__tracker[data-active="true"] {
+  background: var(--yellow);
+  border-color: var(--yellow);
+}
 
 /* ---------- Footer attribution ---------- */
 .attribution {
@@ -245,23 +322,52 @@ a {
   text-align: center;
   z-index: 20;
 }
-.attribution small { font-size: 11px; color: var(--text-muted); }
-.attribution a { color: var(--text-muted); }
-.attribution a:hover { color: var(--text); }
+.attribution small { font-size: 11px; color: var(--gray11); }
+.attribution a { color: var(--gray11); }
+.attribution a:hover { color: var(--gray12); }
 
-/* ---------- Mobile ---------- */
-@media (max-width: 640px) {
-  :root {
-    --viewport-w: 92vw;
-    --viewport-h: 72vh;
-    --card-gap: 16px;
-  }
-  .card { padding: 24px; }
-  .card--contact { padding: 24px 24px 24px 36px; }
-  .card--projects-index { padding: 24px; }
-  .minimap { top: 20px; }
+/* ---------- Debug / wireframe mode (crosshair easter egg) ---------- */
+main[data-debug="true"] .sheet {
+  background: transparent;
+  border: 1px solid #000;
+}
+main[data-debug="true"] .circle {
+  background: transparent;
+  border: 1px solid #000;
+}
+main[data-debug="true"] .bio p,
+main[data-debug="true"] .contact a,
+main[data-debug="true"] .contact span,
+main[data-debug="true"] .email p,
+main[data-debug="true"] .manifesto-contents p {
+  color: transparent;
+  -webkit-text-stroke: 1px #000;
+}
+main[data-debug="true"] .projects-cursor rect {
+  fill: transparent;
+  stroke: #000;
+  stroke-width: 0.12; /* viewBox is 13x16 user units */
 }
 
+/* ---------- Touch (rauno: native horizontal pan) ---------- */
+@media (pointer: coarse) {
+  body { touch-action: pan-y; overscroll-behavior-x: auto; }
+}
+
+/* ---------- Reduced motion ---------- */
 @media (prefers-reduced-motion: reduce) {
-  .minimap__ticks .tick { transition: none; }
+  .main-container,
+  .circle,
+  .clip-reveal span,
+  .frame:not([data-variant="main"]),
+  .minimap {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+  .minimap__lines .line,
+  .minimap__tracker,
+  .email > * {
+    transition: none;
+  }
 }

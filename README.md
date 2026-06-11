@@ -1,6 +1,8 @@
 # Acci4i0
 
-A personal portfolio built as a series of rebuild studies. The home page is modeled on [rauno.me](https://rauno.me); each project linked from the Projects section is a separate rebuild of a site I wanted to study. All code is written from scratch (copied source if you can).
+A personal portfolio.
+The home page is modeled on [rauno.me](https://rauno.me); each project linked from the Projects section is a separate rebuild of a site I wanted to study. 
+All code is written from scratch.
 
 ## Stack
 
@@ -47,5 +49,6 @@ gh repo edit --enable-pages --pages-branch main
 
 ## Author
 
-Andrea Lando — [LinkedIn](https://www.linkedin.com/in/andrea-lando-2a51833b3) · [Email](mailto:lando.andrea04@gmail.com)
+Andrea Lando — [LinkedIn](https://www.linkedin.com/in/andrea-lando-2a51833b3) 
+[Email](mailto:lando.andrea04@gmail.com)
 
